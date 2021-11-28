@@ -13,11 +13,13 @@ public class MingZi {
         String name = this.getHanZi();
         PinYin = convert.toPinYin(name);
         set_longest(PinYin.length());
+
+    }
+    public void add_zero(){
         while(PinYin.length() < longest){
             PinYin = PinYin + "0";
         }
     }
-
     public String getHanZi() {
         return HanZi;
     }

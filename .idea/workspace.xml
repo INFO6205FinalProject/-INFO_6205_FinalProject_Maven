@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/team/SortMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/team/sort/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/DualQuicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/LSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/LSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/MSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/Timsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/MingZi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/MingZi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Benchmark.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
