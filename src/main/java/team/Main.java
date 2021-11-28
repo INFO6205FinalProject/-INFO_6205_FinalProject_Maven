@@ -11,5 +11,10 @@ public class Main {
         for(int i = 0; i<hz.size(); i++){
             mz.add(new MingZi(hz.get(i)));
         }
+        String[][] s = new String[mz.size()][2];
+        for(int i = 0; i<mz.size(); i++){
+            s[i][0] = mz.get(i).getPinYin();
+            s[i][1] = mz.get(i).getHanZi();
+        }
     }
 }
