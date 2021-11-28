@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="add compareTo">
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/MingZi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/MingZi.java" afterDir="false" />
+    <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="add Annotation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/MingZi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/MingZi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638139388456</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add Annotation">
+      <created>1638139777770</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638139777771</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -313,7 +323,8 @@
     <MESSAGE value="Add Main &amp; arranged MingZi" />
     <MESSAGE value="add add_zero" />
     <MESSAGE value="add compareTo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add compareTo" />
+    <MESSAGE value="add Annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Annotation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/team/kkk.java">
