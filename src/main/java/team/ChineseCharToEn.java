@@ -11,7 +11,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ChineseCharToEn {
-    class CharacterPinYinConvert
+    public static class CharacterPinYinConvert
     {
         /** 设置汉字拼音输出的格式 **/
         HanyuPinyinOutputFormat format = null;
