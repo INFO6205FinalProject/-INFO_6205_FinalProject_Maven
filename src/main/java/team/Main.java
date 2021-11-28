@@ -16,5 +16,10 @@ public class Main {
             s[i][0] = mz.get(i).getPinYin();
             s[i][1] = mz.get(i).getHanZi();
         }
+        MingZi m1 = new MingZi("黄星宇");
+        MingZi m2 = new MingZi("秦皓源");
+        int tmp = m1.compareTo(m2);
+        System.out.println(tmp);
+
     }
 }

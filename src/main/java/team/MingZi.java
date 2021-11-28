@@ -1,6 +1,6 @@
 package team;
 
-public class MingZi {
+public class MingZi implements Comparable<MingZi>{
     private String PinYin;
     private String HanZi;
     private static int longest = 0;
@@ -29,11 +29,21 @@ public class MingZi {
     private void set_longest(int i){
         longest = Math.max(longest,i);
     }
-
     public static void main(String[] args) {
         MingZi name = new MingZi("王二大");
         MingZi name2 = new MingZi("王二啊丫");
         System.out.println(name.getPinYin());
         System.out.println(longest);
     }
+
+    @Override
+    public int compareTo(MingZi o) {
+        if(PinYin.equals(o.PinYin))
+            return 0;
+        else if(PinYin.compareTo(o.PinYin) > 0)
+            return 1;
+        else
+            return -1;
+    }
 }
+

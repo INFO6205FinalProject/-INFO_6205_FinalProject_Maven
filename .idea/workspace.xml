@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
+    <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="add add_zero">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/team/MingZi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/MingZi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Benchmark.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,10 +129,23 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.Benchmark">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Benchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="team.Benchmark" />
       <module name="INFO_6205_FinalProject_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="team.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="team.Main" />
+      <module name="6205team" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="team.*" />
@@ -171,6 +184,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Benchmark" />
         <item itemvalue="Application.MingZi" />
         <item itemvalue="Application.TXT" />
@@ -218,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638123432242</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Main &amp; arranged MingZi">
+      <created>1638137011662</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638137011662</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add add_zero">
+      <created>1638137057392</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638137057394</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -278,7 +306,8 @@
     <MESSAGE value="read txt" />
     <MESSAGE value="add MingZi" />
     <MESSAGE value="Add Main &amp; arranged MingZi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Main &amp; arranged MingZi" />
+    <MESSAGE value="add add_zero" />
+    <option name="LAST_COMMIT_MESSAGE" value="add add_zero" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/team/kkk.java">
