@@ -1,9 +1,10 @@
-package team;
+package team.sort;
 
-public class Timsort {
+public class Timsort implements Sort {
 
     static int MIN_MERGE = 32;
 
+    private String[] data;
     public static int minRunLength(int n)
     {
         assert n >= 0;
@@ -97,6 +98,10 @@ public class Timsort {
             }
         }
     }
+
+    public Timsort(){
+
+    }
     public static void main(String[] args) {
         String str[] = {"Walmart",
                 "Amazon",
@@ -128,5 +133,14 @@ public class Timsort {
         for(String i: str){
             System.out.println(i);
         }
+    }
+
+    @Override
+    public void setData(String[] data){
+        this.data = data;
+    }
+    @Override
+    public void run() {
+        timSort(this.data, this.data.length);
     }
 }

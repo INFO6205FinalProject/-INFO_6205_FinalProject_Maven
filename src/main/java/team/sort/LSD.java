@@ -1,7 +1,8 @@
-package team;
+package team.sort;
 
-public class LSD {
+public class LSD implements Sort {
 
+    private String[] data;
     public static void LSD_sort(String[] a){//W表示字符串的长度
         int w = a[0].length();
         int N=a.length;
@@ -43,5 +44,16 @@ public class LSD {
         for(String i: str){
             System.out.print(i + " ");
         }
+    }
+
+    public LSD(){}
+
+    @Override
+    public void setData(String[] data){
+        this.data = data;
+    }
+    @Override
+    public void run() {
+        LSD_sort(this.data);
     }
 }

@@ -1,8 +1,9 @@
-package team;
+package team.sort;
 
-public class DualQuicksort {
+public class DualQuicksort implements Sort {
 
 
+    private String[] data;
     static void swap(String[] arr, int i, int j)
     {
         String temp = arr[i];
@@ -78,4 +79,12 @@ public class DualQuicksort {
 
     }
 
+    @Override
+    public void setData(String[] data){
+        this.data = data;
+    }
+    @Override
+    public void run() {
+        dualPivotQuickSort(this.data, 0, this.data.length - 1);
+    }
 }

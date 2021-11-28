@@ -1,7 +1,8 @@
-package team;
+package team.sort;
 
-public class MSD {
+public class MSD implements Sort {
 
+    private String[] data;
     private static int R=256;
     private static String[] aux;
     public static int charAt(String s,int d){
@@ -62,5 +63,14 @@ public class MSD {
         for(String i: str){
             System.out.print(i + " ");
         }
+    }
+
+    @Override
+    public void setData(String[] data){
+        this.data = data;
+    }
+    @Override
+    public void run() {
+        MSD_sort(this.data);
     }
 }
