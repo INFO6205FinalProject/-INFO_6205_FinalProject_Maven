@@ -6,6 +6,7 @@ public class MingZi {
     private static int longest = 0;
     public MingZi(String HanZi) {
         this.HanZi = HanZi;
+        toPinYin();
     }
     private void toPinYin(){
         ChineseCharToEn.CharacterPinYinConvert convert = new ChineseCharToEn.CharacterPinYinConvert();
@@ -28,10 +29,8 @@ public class MingZi {
     }
 
     public static void main(String[] args) {
-        MingZi name = new MingZi("王二丫");
-        name.toPinYin();
+        MingZi name = new MingZi("王二大");
         MingZi name2 = new MingZi("王二啊丫");
-        name2.toPinYin();
         System.out.println(name.getPinYin());
         System.out.println(longest);
     }
