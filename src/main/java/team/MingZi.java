@@ -31,7 +31,7 @@ public class MingZi {
         MingZi name = new MingZi("王二丫");
         name.toPinYin();
         MingZi name2 = new MingZi("王二啊丫");
-        name.toPinYin();
+        name2.toPinYin();
         System.out.println(name.getPinYin());
         System.out.println(longest);
     }
