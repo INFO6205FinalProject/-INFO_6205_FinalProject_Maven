@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="add add_zero">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Main.java" afterDir="false" />
+    <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="add compareTo">
       <change beforePath="$PROJECT_DIR$/src/main/java/team/MingZi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/MingZi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638137057394</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add compareTo">
+      <created>1638139388455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1638139388456</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -307,7 +312,8 @@
     <MESSAGE value="add MingZi" />
     <MESSAGE value="Add Main &amp; arranged MingZi" />
     <MESSAGE value="add add_zero" />
-    <option name="LAST_COMMIT_MESSAGE" value="add add_zero" />
+    <MESSAGE value="add compareTo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add compareTo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/team/kkk.java">

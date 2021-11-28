@@ -8,6 +8,7 @@ public class MingZi implements Comparable<MingZi>{
         this.HanZi = HanZi;
         toPinYin();
     }
+    // converted to PinYin
     private void toPinYin(){
         ChineseCharToEn.CharacterPinYinConvert convert = new ChineseCharToEn.CharacterPinYinConvert();
         String name = this.getHanZi();
@@ -15,6 +16,7 @@ public class MingZi implements Comparable<MingZi>{
         set_longest(PinYin.length());
 
     }
+    // add zero at the end of pinyin to make the same length
     public void add_zero(){
         while(PinYin.length() < longest){
             PinYin = PinYin + "0";
@@ -26,6 +28,7 @@ public class MingZi implements Comparable<MingZi>{
     public String getPinYin(){
         return PinYin;
     }
+    // refresh the longest
     private void set_longest(int i){
         longest = Math.max(longest,i);
     }
@@ -35,7 +38,7 @@ public class MingZi implements Comparable<MingZi>{
         System.out.println(name.getPinYin());
         System.out.println(longest);
     }
-
+    // add compareTo
     @Override
     public int compareTo(MingZi o) {
         if(PinYin.equals(o.PinYin))
