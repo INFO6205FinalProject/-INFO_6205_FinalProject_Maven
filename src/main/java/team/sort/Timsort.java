@@ -1,10 +1,12 @@
 package team.sort;
 
+import team.MingZi;
+
 public class Timsort implements Sort {
 
     static int MIN_MERGE = 32;
 
-    private String[] data;
+    private MingZi[] data;
     public static int minRunLength(int n)
     {
         assert n >= 0;
@@ -17,13 +19,12 @@ public class Timsort implements Sort {
         return n + r;
     }
 
-    public static void insertionSort(String[] arr, int left, int right)
+    public static void insertionSort(MingZi[] arr, int left, int right)
     {
         for (int i = left + 1; i <= right; i++)
         {
-            String temp = arr[i];
+            MingZi temp = arr[i];
             int j = i - 1;
-            //while (j >= left && arr[j].charAt(0) > temp.charAt(0))
             while (j >= left && arr[j].compareTo(temp) > 0 )
             {
                 arr[j + 1] = arr[j];
@@ -32,11 +33,11 @@ public class Timsort implements Sort {
             arr[j + 1] = temp;
         }
     }
-    public static void merge(String[] arr, int l, int m, int r)
+    public static void merge(MingZi[] arr, int l, int m, int r)
     {
         int len1 = m - l + 1, len2 = r - m;
-        String[] left = new String[len1];
-        String[] right = new String[len2];
+        MingZi[] left = new MingZi[len1];
+        MingZi[] right = new MingZi[len2];
         for (int x = 0; x < len1; x++)
         {
             left[x] = arr[l + x];
@@ -51,7 +52,6 @@ public class Timsort implements Sort {
         int k = l;
         while (i < len1 && j < len2)
         {
-            //if (left[i].charAt(0) <= right[j].charAt(0))
             if(left[i].compareTo(right[j]) <= 0)
             {
                 arr[k] = left[i];
@@ -78,7 +78,7 @@ public class Timsort implements Sort {
         }
     }
 
-    public static void timSort(String[] arr, int n) {
+    public static void timSort(MingZi[] arr, int n) {
         int minRun = minRunLength(MIN_MERGE);
 
         for (int i = 0; i < n; i += minRun) {
@@ -102,41 +102,9 @@ public class Timsort implements Sort {
     public Timsort(){
 
     }
-    public static void main(String[] args) {
-        String str[] = {"Walmart",
-                "Amazon",
-                "Apple Inc.",
-                "CVS Health",
-                "ExxonMobil",
-                "UnitedHealth Group",
-                "Berkshire Hathaway",
-                "McKesson Corporation",
-                "AmerisourceBergen",
-                "Alphabet Inc.",
-                "AT&T",
-                "Cigna",
-                "Ford Motor Company",
-                "Costco",
-                "FedEx",
-                "Chevron Corporatio",
-                "Cardinal Health",
-                "Microsoft",
-                "JPMorgan Chase",
-                "General Motors",
-                "Walgreens Boots Alnois",
-                "Verizon Communicatk",
-                "Marathon Petroleum",
-                "Kroger",
-                "Fannie Mae",
-                "Bank of America"};
-        timSort(str,str.length);
-        for(String i: str){
-            System.out.println(i);
-        }
-    }
 
     @Override
-    public void setData(String[] data){
+    public void setData(MingZi[] data){
         this.data = data;
     }
     @Override

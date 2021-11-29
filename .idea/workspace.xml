@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="add Annotation">
+    <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_28_21__16_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_28_21__16_58__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/MingZi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/MingZi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -6,7 +6,7 @@ public class Benchmark {
 
     private Sort sortAlgorithm ;
     private long time;
-    public Benchmark(SortMethod sortMethod, String[] data){
+    public Benchmark(SortMethod sortMethod, MingZi[] data){
         switch (sortMethod) {
             case TimSort:
                 sortAlgorithm = new Timsort();
@@ -41,33 +41,8 @@ public class Benchmark {
     }
 
     public static void main(String[] args) {
-        String str[] = {"Walmart",
-                "Amazon",
-                "Apple Inc.",
-                "CVS Health",
-                "ExxonMobil",
-                "UnitedHealth Group",
-                "Berkshire Hathaway",
-                "McKesson Corporation",
-                "AmerisourceBergen",
-                "Alphabet Inc.",
-                "AT&T",
-                "Cigna",
-                "Ford Motor Company",
-                "Costco",
-                "FedEx",
-                "Chevron Corporatio",
-                "Cardinal Health",
-                "Microsoft",
-                "JPMorgan Chase",
-                "General Motors",
-                "Walgreens Boots Alnois",
-                "Verizon Communicatk",
-                "Marathon Petroleum",
-                "Kroger",
-                "Fannie Mae",
-                "Bank of America"};
-        Benchmark test = new Benchmark(SortMethod.TimSort, str);
+
+        // Benchmark test = new Benchmark(SortMethod.TimSort, str);
         test.runBenchmark();
         long time = test.getTime();
         System.out.println("time in  milliseconds:" + time);
