@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_28_21__16_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_28_21__16_58__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/ChineseCharToEn$CharacterPinYinConvert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/ChineseCharToEn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/MingZi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/MingZi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/SortMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/DualQuicksort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/DualQuicksort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/LSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/LSD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/MSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/Timsort.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +35,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/team/Benchmark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-59">
-              <caret line="47" column="6" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="6" />
+            <state relative-caret-position="506">
+              <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+              <folding>
+                <element signature="e#991#992#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,15 +72,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="78" column="44" selection-start-line="78" selection-start-column="44" selection-end-line="78" selection-end-column="44" />
+            <state relative-caret-position="-1426">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
               <folding>
                 <element signature="e#2033#2034#0" expanded="true" />
                 <element signature="e#2065#2066#0" expanded="true" />
                 <element signature="e#2186#2187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/team/GenerateName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="244" selection-start-line="244" selection-end-line="244" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#GenerateName#0" />
+                <element signature="e#154#162#0" expanded="true" />
+                <element signature="method#getRandomJianHan#0;class#GenerateName#0" />
+                <element signature="method#randomName#0;class#GenerateName#0" />
               </folding>
             </state>
           </provider>
@@ -142,6 +149,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/Benchmark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/GenerateName.java" />
       </list>
     </option>
   </component>
@@ -176,51 +185,7 @@
               <item name="_6205team" type="b2602c69:ProjectViewProjectNode" />
               <item name="INFO_6205_FinalProject_Maven" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_6205team" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INFO_6205_FinalProject_Maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_6205team" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INFO_6205_FinalProject_Maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="team" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_6205team" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INFO_6205_FinalProject_Maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="team" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_6205team" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INFO_6205_FinalProject_Maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_6205team" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INFO_6205_FinalProject_Maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="_6205team" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INFO_6205_FinalProject_Maven" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,11 +207,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638149728564" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638150362396" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -412,13 +377,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2126000" />
+    <option name="totallyTimeSpent" value="2949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21801706" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21801706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -428,7 +392,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2527115" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21908894" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -529,6 +493,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/Benchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+          <folding>
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1426">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#2033#2034#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/GenerateName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="244" selection-start-line="244" selection-end-line="244" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#GenerateName#0" />
+            <element signature="e#154#162#0" expanded="true" />
+            <element signature="method#getRandomJianHan#0;class#GenerateName#0" />
+            <element signature="method#randomName#0;class#GenerateName#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -586,7 +587,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -606,7 +606,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>lib1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
