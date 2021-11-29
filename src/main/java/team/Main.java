@@ -1,5 +1,8 @@
 package team;
 
+import team.sort.LSD;
+import team.sort.MSD;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -15,13 +18,16 @@ public class Main {
         MingZi[] m = new MingZi[mz.size()];
         for(int i = 0; i<mz.size(); i++){
             m[i] = mz.get(i);
+            // LSD needs to keep all member into the same length
+            m[i].add_zero();
         }
-        Arrays.sort(m, new Comparator<MingZi>() {
-            @Override
-            public int compare(MingZi o1, MingZi o2) {
-                return o1.getPinYin().compareTo(o2.getPinYin());
-            }
-        });
+        LSD.LSD_sort(m);
+//        Arrays.sort(m, new Comparator<MingZi>() {
+//            @Override
+//            public int compare(MingZi o1, MingZi o2) {
+//                return o1.getPinYin().compareTo(o2.getPinYin());
+//            }
+//        });
         for(int i = 0; i< m.length; i++){
             System.out.println(m[i].getHanZi());
         }

@@ -40,11 +40,11 @@ public class Benchmark {
         return this.time;
     }
 
-    public static void main(String[] args) {
-
-        // Benchmark test = new Benchmark(SortMethod.TimSort, str);
-        test.runBenchmark();
-        long time = test.getTime();
-        System.out.println("time in  milliseconds:" + time);
-    }
+//    public static void main(String[] args) {
+//
+//        // Benchmark test = new Benchmark(SortMethod.TimSort, str);
+//        test.runBenchmark();
+//        long time = test.getTime();
+//        System.out.println("time in  milliseconds:" + time);
+//    }
 }

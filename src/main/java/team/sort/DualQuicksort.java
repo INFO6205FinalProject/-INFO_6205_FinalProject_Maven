@@ -1,18 +1,19 @@
 package team.sort;
 
+import team.MingZi;
+
 public class DualQuicksort implements Sort {
 
 
-    private String[] data;
-    static void swap(String[] arr, int i, int j)
+    private MingZi[] data;
+    static void swap(MingZi[] arr, int i, int j)
     {
-        String temp = arr[i];
+        MingZi temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
 
-    static void dualPivotQuickSort(String[] arr,
-                                   int low, int high)
+    static void dualPivotQuickSort(MingZi[] arr, int low, int high)
     {
         if (low < high)
         {
@@ -25,14 +26,14 @@ public class DualQuicksort implements Sort {
         }
     }
 
-    static int[] partition(String[] arr, int low, int high)
+    static int[] partition(MingZi[] arr, int low, int high)
     {
         if (arr[low].compareTo( arr[high])>0)
             swap(arr, low, high);
 
         int j = low + 1;
         int g = high - 1, k = low + 1;
-        String  p = arr[low], q = arr[high];
+        MingZi  p = arr[low], q = arr[high];
 
         while (k <= g)
         {
@@ -69,18 +70,18 @@ public class DualQuicksort implements Sort {
     public static void main(String[] args)
     {
 
-        String str[] = { "qop","hyp","oou" ,"lz","hxy", "pzj","qhy", "albb","zy" };
+        MingZi[] str = new MingZi[] { new MingZi("黄佳佳"),new MingZi("蓝果果"),new MingZi("绿泡泡") ,new MingZi("红彤彤") ,new MingZi("绿泡泡"), new MingZi("李好"),new MingZi("泰勒"), new MingZi("阿里巴巴")};
 
         dualPivotQuickSort(str, 0, str.length-1);
 
         System.out.print("Sorted array: ");
         for (int i = 0; i < str.length; i++)
-            System.out.print(str[i] + " ");
+            System.out.print(str[i].getPinYin() + " ");
 
     }
 
     @Override
-    public void setData(String[] data){
+    public void setData(MingZi[] data){
         this.data = data;
     }
     @Override
