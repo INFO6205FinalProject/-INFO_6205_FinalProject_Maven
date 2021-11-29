@@ -38,6 +38,11 @@ public class MingZi implements Comparable<MingZi>{
         System.out.println(name.getPinYin());
         System.out.println(longest);
     }
+
+    public static int getLongest() {
+        return longest;
+    }
+
     // add compareTo
     @Override
     public int compareTo(MingZi o) {

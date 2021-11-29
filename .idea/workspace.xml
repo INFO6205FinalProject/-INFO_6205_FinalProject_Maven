@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_28_21__16_58__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_28_21__16_58__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/MingZi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/MingZi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
