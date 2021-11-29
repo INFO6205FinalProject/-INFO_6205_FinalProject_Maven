@@ -42,9 +42,9 @@ public class Benchmark {
 
     public static void main(String[] args) {
 
-        // Benchmark test = new Benchmark(SortMethod.TimSort, str);
-        test.runBenchmark();
-        long time = test.getTime();
-        System.out.println("time in  milliseconds:" + time);
+//        Benchmark test = new Benchmark(SortMethod.TimSort, str);
+//        test.runBenchmark();
+//        long time = test.getTime();
+//        System.out.println("time in  milliseconds:" + time);
     }
 }
