@@ -1,10 +1,12 @@
 package team.sort;
 
+import team.MingZi;
+
 public class MSD implements Sort {
 
-    private String[] data;
+    private MingZi[] data;
     private static int R=256;
-    private static String[] aux;
+    private static MingZi[] aux;
     public static int charAt(String s,int d){
         if(d<s.length()){
             return s.charAt(d);
@@ -12,25 +14,25 @@ public class MSD implements Sort {
             return -1;
         }
     }
-    public static void MSD_sort(String[] a){
+    public static void MSD_sort(MingZi[] a){
         int N=a.length;
-        aux=new String[N];
+        aux=new MingZi[N];
         MSD_sort1(a,0,N-1,0);
     }
 
-    private static void MSD_sort1(String[] a,int lo,int hi,int d){
+    private static void MSD_sort1(MingZi[] a, int lo, int hi, int d){
         if(lo>=hi){
             return;
         }
         int[] count=new int[R+2];
         for(int i=lo;i<=hi;i++){
-            count[charAt(a[i],d)+2]++;
+            count[charAt(a[i].getPinYin(),d)+2]++;
         }
         for(int r=0;r<R+1;r++){
             count[r+1]+=count[r];
         }
         for(int i=lo;i<=hi;i++){
-            aux[count[charAt(a[i],d)+1]++]=a[i];
+            aux[count[charAt(a[i].getPinYin(),d)+1]++]=a[i];
         }
         for(int i=lo;i<=hi;i++){
             a[i]=aux[i - lo];
@@ -55,7 +57,7 @@ public class MSD implements Sort {
         }
 
         // Function Call
-        MSD_sort(str);
+        //MSD_sort(str);
 
         System.out.print("Sorted array : ");
 
@@ -66,7 +68,7 @@ public class MSD implements Sort {
     }
 
     @Override
-    public void setData(String[] data){
+    public void setData(MingZi[] data){
         this.data = data;
     }
     @Override
