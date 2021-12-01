@@ -1,6 +1,13 @@
 package team.sort;
 
+import team.Benchmark;
+import team.GenerateName;
 import team.MingZi;
+
+import java.util.Arrays;
+
+import static team.SortMethod.MSDSort;
+import static team.SortMethod.QuickSort;
 
 public class DualQuicksort implements Sort {
 
@@ -29,7 +36,7 @@ public class DualQuicksort implements Sort {
 
     static int[] partition(MingZi[] arr, int low, int high)
     {
-        if (arr[low].compareTo( arr[high])>0)
+        if (arr[low].compareTo(arr[high])>0)
             swap(arr, low, high);
 
         int j = low + 1;
@@ -71,13 +78,19 @@ public class DualQuicksort implements Sort {
     public static void main(String[] args)
     {
 
-        MingZi str[] = { new MingZi("黄佳佳"),new MingZi("黄佳佳"),new MingZi("白眉仙翁") ,new MingZi("紫金龙"),new MingZi("蓝果果"), new MingZi("红彤彤"),new MingZi("绿泡泡"), new MingZi("阿里巴巴") };
+        MingZi[] k = new MingZi[1000000];
 
-        dualPivotQuickSort(str, 0, str.length-1);
+        for(int i = 0;i<1000000;i++){
+            k[i] = new MingZi(GenerateName.randomName());
+        }
+        Arrays.sort(k,(name1, name2)->{
+            return  name2.compareTo(name1);
+        });
 
-        System.out.print("Sorted array: ");
-        for (int i = 0; i < str.length; i++)
-            System.out.print(str[i].getPinYin() + " ");
+        Benchmark benchmark = new Benchmark(QuickSort,k);
+        benchmark.runBenchmark();
+
+        System.out.println(benchmark.getTime());
 
     }
 
