@@ -13,7 +13,8 @@ public class DualQuicksort implements Sort {
         arr[j] = temp;
     }
 
-    static void dualPivotQuickSort(MingZi[] arr, int low, int high)
+    static void dualPivotQuickSort(MingZi[] arr,
+                                   int low, int high)
     {
         if (low < high)
         {
@@ -70,7 +71,7 @@ public class DualQuicksort implements Sort {
     public static void main(String[] args)
     {
 
-        MingZi[] str = new MingZi[] { new MingZi("黄佳佳"),new MingZi("蓝果果"),new MingZi("绿泡泡") ,new MingZi("红彤彤") ,new MingZi("绿泡泡"), new MingZi("李好"),new MingZi("泰勒"), new MingZi("阿里巴巴")};
+        MingZi str[] = { new MingZi("黄佳佳"),new MingZi("黄佳佳"),new MingZi("白眉仙翁") ,new MingZi("紫金龙"),new MingZi("蓝果果"), new MingZi("红彤彤"),new MingZi("绿泡泡"), new MingZi("阿里巴巴") };
 
         dualPivotQuickSort(str, 0, str.length-1);
 
