@@ -105,9 +105,9 @@ public class MyTest {
         try {
             System.out.println();
             System.out.println("TimSort in order  milliseconds:" + timResult.get());
-            System.out.println("QuickSort in order  milliseconds:" + quickResult.get());
             System.out.println("LsdSort in order  milliseconds:" + lsdResult.get());
             System.out.println("MsdSort in order  milliseconds:" + msdResult.get());
+            System.out.println("QuickSort in order  milliseconds:" + quickResult.get());
 
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
@@ -143,9 +143,9 @@ public class MyTest {
         try {
             System.out.println();
             System.out.println("TimSort in reverse  milliseconds:" + timResult.get());
-            System.out.println("QuickSort in reverse  milliseconds:" + quickResult.get());
             System.out.println("LsdSort in reverse  milliseconds:" + lsdResult.get());
             System.out.println("MsdSort in reverse  milliseconds:" + msdResult.get());
+            System.out.println("QuickSort in reverse  milliseconds:" + quickResult.get());
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
