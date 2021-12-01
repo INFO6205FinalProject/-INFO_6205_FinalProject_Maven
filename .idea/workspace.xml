@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SortCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/LSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/LSD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/MSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/MSD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/MyTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="G:\git\INFO_6205_FinalProject_Maven\.idea\shelf/" />
@@ -77,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+            <state relative-caret-position="159">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2116#2117#0" expanded="true" />
@@ -91,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-507">
-              <caret line="168" column="50" lean-forward="true" selection-start-line="168" selection-start-column="50" selection-end-line="168" selection-end-column="50" />
+            <state relative-caret-position="368">
+              <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,13 +174,13 @@
         <option value="$PROJECT_DIR$/src/main/java/team/sort/LSD.java" />
         <option value="$PROJECT_DIR$/src/test/java/NumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SortCallable.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="116" />
     <option name="y" value="89" />
     <option name="width" value="1228" />
@@ -278,7 +270,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638378583335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638378768986" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -300,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DualQuicksort">
+  <component name="RunManager" selected="JUnit.MyTest.OrderOneM">
     <configuration name="DualQuicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="team.sort.DualQuicksort" />
       <module name="INFO_6205_FinalProject_Maven" />
@@ -359,11 +351,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.OrderOneM" />
         <item itemvalue="Application.DualQuicksort" />
         <item itemvalue="Application.MSD" />
         <item itemvalue="JUnit.MyTest.ReverseOneM" />
         <item itemvalue="JUnit.MyTest.RandomOneM" />
-        <item itemvalue="JUnit.MyTest.OrderOneM" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +371,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638068538691</updated>
       <workItem from="1638068541498" duration="1900000" />
-      <workItem from="1638323614437" duration="16933000" />
+      <workItem from="1638323614437" duration="17271000" />
     </task>
     <task id="LOCAL-00001" summary="read txt">
       <created>1638116823014</created>
@@ -473,13 +465,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20915000" />
+    <option name="totallyTimeSpent" value="21253000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22014925" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22014925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -490,7 +482,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2537961" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27440348" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15726681" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -687,16 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-507">
-          <caret line="168" column="50" lean-forward="true" selection-start-line="168" selection-start-column="50" selection-end-line="168" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/Timsort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -717,12 +699,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="102" column="39" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+        <state relative-caret-position="159">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2116#2117#0" expanded="true" />
             <element signature="e#2186#2187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
