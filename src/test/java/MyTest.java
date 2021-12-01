@@ -87,12 +87,12 @@ public class MyTest {
         threadPool = new ThreadPoolExecutor(5, 6, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 
         SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,1000000,"order");
-        //SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,1000000,"order");
+        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,1000000,"order");
         SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,1000000,"order");
         SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,1000000,"order");
 
         Future<Long> timResult = threadPool.submit(timCall);
-        //Future<Long> quickResult = threadPool.submit(quickCall);
+        Future<Long> quickResult = threadPool.submit(quickCall);
         Future<Long> msdResult = threadPool.submit(msdCall);
         Future<Long> lsdResult = threadPool.submit(lsdCall);
 
@@ -105,7 +105,7 @@ public class MyTest {
         try {
             System.out.println();
             System.out.println("TimSort in order  milliseconds:" + timResult.get());
-            //System.out.println("QuickSort in order  milliseconds:" + quickResult.get());
+            System.out.println("QuickSort in order  milliseconds:" + quickResult.get());
             System.out.println("LsdSort in order  milliseconds:" + lsdResult.get());
             System.out.println("MsdSort in order  milliseconds:" + msdResult.get());
 
@@ -144,26 +144,13 @@ public class MyTest {
             System.out.println();
             System.out.println("TimSort in reverse  milliseconds:" + timResult.get());
             System.out.println("QuickSort in reverse  milliseconds:" + quickResult.get());
-        } catch (Exception e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-
-        try {
-            System.out.println();
             System.out.println("LsdSort in reverse  milliseconds:" + lsdResult.get());
-        } catch (Exception e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-
-        try {
-            System.out.println();
             System.out.println("MsdSort in reverse  milliseconds:" + msdResult.get());
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+
     }
 
     class SortCallable implements Callable<Long> {
