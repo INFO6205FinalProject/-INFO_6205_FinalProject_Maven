@@ -5,30 +5,44 @@ import team.MingZi;
 public class LSD implements Sort {
 
     private MingZi[] data;
-    public static void LSD_sort(MingZi[] a){//W表示字符串的长度
-        int w = a[0].getLongest();
-        int N=a.length;
+    public static void LSDSort(MingZi[] arr){//W表示字符串的长度
+        preWork(arr);
+//        int w = arr[0].getLongest();
+        int max = 4;
+        int N=arr.length;
         int R=256;
         MingZi[] aux=new MingZi[N];
 
         //开始循环进行键索引计数排序
-        for(int d=w-1;d>=0;d--){  //从低位开始进行
+        for(int d=max-1;d>=0;d--){  //从低位开始进行
 
             int count[] =new int[R+1];
             for(int i=0;i<N;i++){
-                count[a[i].getPinYin().charAt(d)+1]+=1;
+                count[arr[i].getPinYin().charAt(d)+1]+=1;
             }
             for(int r=0;r<R;r++){
                 count[r+1]+=count[r];
             }
             for(int i=0;i<N;i++){
-                aux[count[a[i].getPinYin().charAt(d)]++]=a[i];
+                aux[count[arr[i].getPinYin().charAt(d)]++]=arr[i];
             }
             for(int i=0;i<N;i++){
-                a[i]=aux[i];
+                arr[i]=aux[i];
             }
         }
     }
+
+    static void preWork(MingZi[] arr){
+        int max = 4;
+
+        for(int i = 0;i<arr.length;i++){
+            while(arr[i].getPinYin().length() < max){
+                arr[i].setPinYin(arr[i].getPinYin()+ "0");
+            }
+        }
+
+    }
+
     public static void main(String[] args) {
 
         // Input String
@@ -47,6 +61,6 @@ public class LSD implements Sort {
     }
     @Override
     public void run() {
-        LSD_sort(this.data);
+        LSDSort(this.data);
     }
 }

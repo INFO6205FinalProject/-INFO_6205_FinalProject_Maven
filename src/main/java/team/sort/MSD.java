@@ -14,7 +14,7 @@ public class MSD implements Sort {
             return -1;
         }
     }
-    public static void MSD_sort(MingZi[] a){
+    public static void MSDSort(MingZi[] a){
         int N=a.length;
         aux=new MingZi[N];
         MSD_sort1(a,0,N-1,0);
@@ -73,6 +73,6 @@ public class MSD implements Sort {
     }
     @Override
     public void run() {
-        MSD_sort(this.data);
+        MSDSort(this.data);
     }
 }

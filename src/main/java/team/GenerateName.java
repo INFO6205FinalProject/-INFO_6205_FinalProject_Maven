@@ -11,12 +11,14 @@ public class GenerateName {
         /**随机产生100个昵称*/
         HashSet<String> set = new HashSet<String>();
         for (int i = 0; i < 100; i++) {
-            String chineseName = randomName(true,3);
+            String chineseName = randomName();
             if (!set.contains(chineseName)) {
                 set.add(chineseName);
             }
         }
+
         Iterator<String> iterator = set.iterator();
+
         while (iterator.hasNext()) {
             System.err.print(iterator.next() + "\n");
         }
@@ -44,7 +46,7 @@ public class GenerateName {
         return randomName;
     }
     /**方法2*/
-    public static String randomName(boolean simple, int len) {
+    public static String randomName() {
         String surName[] = {
                 "赵","钱","孙","李","周","吴","郑","王","冯","陈","楮","卫","蒋","沈","韩","杨",
                 "朱","秦","尤","许","何","吕","施","张","孔","曹","严","华","金","魏","陶","姜",
@@ -73,14 +75,19 @@ public class GenerateName {
                 "曾","毋","沙","乜","养","鞠","须","丰","巢","关","蒯","相","查","后","荆","红",
                 "游","竺","权","逑","盖","益","桓","公","晋","楚","阎","法","汝","鄢","涂","钦",
                 "岳","帅","缑","亢","况","后","有","琴","商","牟","佘","佴","伯","赏","墨","哈",
-                "谯","笪","年","爱","阳","佟"};
-
-        String doubleSurName[] = {"万俟","司马","上官","欧阳","夏侯","诸葛","闻人","东方",
+                "谯","笪","年","爱","阳","佟","万俟","司马","上官","欧阳","夏侯","诸葛","闻人","东方",
                 "赫连","皇甫","尉迟","公羊","澹台","公冶","宗政","濮阳","淳于","单于","太叔","申屠",
                 "公孙","仲孙","轩辕","令狐","锺离","宇文","长孙","慕容","鲜于","闾丘","司徒","司空",
                 "丌官","司寇","仉","督","子车","颛孙","端木","巫马","公西","漆雕","乐正","壤驷","公良",
                 "拓拔","夹谷","宰父","谷梁","段干","百里","东郭","南门","呼延","归","海","羊舌","微生",
                 "梁丘","左丘","东门","西门","南宫"};
+
+//        String doubleSurName[] = {"万俟","司马","上官","欧阳","夏侯","诸葛","闻人","东方",
+//                "赫连","皇甫","尉迟","公羊","澹台","公冶","宗政","濮阳","淳于","单于","太叔","申屠",
+//                "公孙","仲孙","轩辕","令狐","锺离","宇文","长孙","慕容","鲜于","闾丘","司徒","司空",
+//                "丌官","司寇","仉","督","子车","颛孙","端木","巫马","公西","漆雕","乐正","壤驷","公良",
+//                "拓拔","夹谷","宰父","谷梁","段干","百里","东郭","南门","呼延","归","海","羊舌","微生",
+//                "梁丘","左丘","东门","西门","南宫"};
 
         String[] word = {"一","乙","二","十","丁","厂","七","卜","人","入","八","九","几","儿","了","力","乃","刀","又",
                 "三","于","干","亏","士","工","土","才","寸","下","大","丈","与","万","上","小","口","巾","山",
@@ -216,28 +223,25 @@ public class GenerateName {
                 "躁","嚼","嚷","籍","魔","灌","蠢","霸","露","囊","罐"};
 
         int surNameLen = surName.length;
-        int doubleSurNameLen = doubleSurName.length;
+       // int doubleSurNameLen = doubleSurName.length;
         int wordLen = word.length;
 
         StringBuffer sb = new StringBuffer();
         Random random = new Random();
-        if(simple){
-            sb.append(surName[random.nextInt(surNameLen)]);
-            int surLen = sb.toString().length();
+
+        int  min = 2,max = 4;
+
+        int len = min + (int)(Math.random() * (max-min+1)); //name length (2,4)
+
+        sb.append(surName[random.nextInt(surNameLen)]);
+
+        int surLen = sb.toString().length();
             for (int i = 0; i < len - surLen; i++) {
                 if(sb.toString().length() <= len){
                     sb.append(word[random.nextInt(wordLen)]);
                 }
             }
-        }else{
-            sb.append(doubleSurName[random.nextInt(doubleSurNameLen)]);
-            int doubleSurLen = sb.toString().length();
-            for (int i = 0; i < len - doubleSurLen; i++) {
-                if(sb.toString().length() <= len){
-                    sb.append(word[random.nextInt(wordLen)]);
-                }
-            }
-        }
+
         return sb.toString();
     }
 }

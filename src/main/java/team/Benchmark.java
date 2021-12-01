@@ -42,9 +42,13 @@ public class Benchmark {
 
     public static void main(String[] args) {
 
-//        Benchmark test = new Benchmark(SortMethod.TimSort, str);
-//        test.runBenchmark();
-//        long time = test.getTime();
-//        System.out.println("time in  milliseconds:" + time);
+        MingZi[] str = new MingZi[]{new MingZi("典中典"),new MingZi("东百往事")};
+
+        Benchmark test = new Benchmark(SortMethod.TimSort, str);
+
+        test.runBenchmark();
+        long time = test.getTime();
+
+        System.out.println("time in  milliseconds:" + time);
     }
 }
