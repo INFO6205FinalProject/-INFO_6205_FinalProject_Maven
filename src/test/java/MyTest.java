@@ -14,7 +14,6 @@ import java.util.Collections;
 public class MyTest {
     MingZi[] oneM,twoM,fourM,eigM;
 
-    int k = 0;
     @Before
     public void before() {
 
