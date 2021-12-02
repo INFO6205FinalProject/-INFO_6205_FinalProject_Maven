@@ -1,13 +1,7 @@
 package team.sort;
 
-import team.Benchmark;
-import team.GenerateName;
 import team.MingZi;
-import team.SortMethod;
 
-import java.util.Arrays;
-
-import static team.SortMethod.MSDSort;
 
 public class MSD implements Sort {
 
@@ -49,22 +43,6 @@ public class MSD implements Sort {
         }
     }
 
-    // Driver Code
-
-    public static void main(String[] args) {
-            MingZi[] k = new MingZi[1000000];
-            for(int i = 0;i<1000000;i++){
-                k[i] = new MingZi(GenerateName.randomName());
-            }
-            Arrays.sort(k,(name1,name2)->{
-                return  name2.compareTo(name1);
-            });
-
-        Benchmark benchmark = new Benchmark(MSDSort,k);
-        benchmark.runBenchmark();
-
-        System.out.println(benchmark.getTime());
-    }
 
     @Override
     public void setData(MingZi[] data){

@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
-      <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FunctionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/LSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/LSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Benchmark$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Benchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyTest$SortCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/MyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NumTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="G:\git\INFO_6205_FinalProject_Maven\.idea\shelf/" />
@@ -20,21 +34,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/team/Benchmark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="20" column="42" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="49" />
-              <folding>
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="920">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/Timsort.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="372">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,8 +55,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/LSD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="16" selection-start-line="16" selection-end-line="17" />
+            <state relative-caret-position="211">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/Timsort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2323">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
+              <folding>
+                <element signature="e#2498#2499#0" expanded="true" />
+                <element signature="e#2550#2551#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,20 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/MSD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="65" column="48" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="65" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/SortMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="23">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -72,22 +86,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="257">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
-                <element signature="e#2186#2187#0" expanded="true" />
+                <element signature="e#2285#2286#0" expanded="true" />
+                <element signature="e#2355#2356#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MyTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/OrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="144" column="86" selection-start-line="144" selection-start-column="86" selection-end-line="144" selection-end-column="86" />
+            <state relative-caret-position="2154">
+              <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,20 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SortCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-537">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1117">
-              <caret line="139" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="-30">
+              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,7 +124,19 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FunctionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1679">
+              <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +169,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/MyTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/OrderTest.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -166,17 +179,21 @@
         <option value="$PROJECT_DIR$/src/main/java/team/MSD.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/Timsort.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/TXT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/team/Benchmark.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/team/GenerateName.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/MingZi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/team/sort/LSD.java" />
-        <option value="$PROJECT_DIR$/src/test/java/NumTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SortCallable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" />
-        <option value="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/NumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FunctionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OrderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/sort/LSD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/Benchmark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java" />
       </list>
     </option>
   </component>
@@ -270,7 +287,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638379124969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638459234425" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -292,70 +309,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.OrderOneM">
-    <configuration name="DualQuicksort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="team.sort.DualQuicksort" />
-      <module name="INFO_6205_FinalProject_Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="team.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MSD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="team.sort.MSD" />
-      <module name="INFO_6205_FinalProject_Maven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="team.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyTest.OrderOneM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderTest">
+    <configuration name="FunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="INFO_6205_FinalProject_Maven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="OrderOneM" />
+      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionTest.LsdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="INFO_6205_FinalProject_Maven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
+      <option name="METHOD_NAME" value="LsdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.RandomOneM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionTest.MsdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="INFO_6205_FinalProject_Maven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="RandomOneM" />
+      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
+      <option name="METHOD_NAME" value="MsdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest.ReverseOneM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FunctionTest.dualQuicksortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="INFO_6205_FinalProject_Maven" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <option name="METHOD_NAME" value="ReverseOneM" />
+      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
+      <option name="METHOD_NAME" value="dualQuicksortTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="INFO_6205_FinalProject_Maven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyTest.OrderOneM" />
-        <item itemvalue="Application.DualQuicksort" />
-        <item itemvalue="Application.MSD" />
-        <item itemvalue="JUnit.MyTest.ReverseOneM" />
-        <item itemvalue="JUnit.MyTest.RandomOneM" />
+        <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.FunctionTest" />
+        <item itemvalue="JUnit.FunctionTest.MsdTest" />
+        <item itemvalue="JUnit.FunctionTest.LsdTest" />
+        <item itemvalue="JUnit.FunctionTest.dualQuicksortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +380,7 @@
       <option name="presentableId" value="Default" />
       <updated>1638068538691</updated>
       <workItem from="1638068541498" duration="1900000" />
-      <workItem from="1638323614437" duration="17631000" />
+      <workItem from="1638323614437" duration="29045000" />
     </task>
     <task id="LOCAL-00001" summary="read txt">
       <created>1638116823014</created>
@@ -433,45 +442,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyTest_ReverseOneM - 2021.12.01 at 11h 36m 54s.xml">
-      <configuration name="MyTest.ReverseOneM" configurationId="JUnit" />
+    <history-entry file="FunctionTest_LsdTest - 2021.12.02 at 10h 22m 28s.xml">
+      <configuration name="FunctionTest.LsdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_ReverseOneM - 2021.12.01 at 11h 38m 51s.xml">
-      <configuration name="MyTest.ReverseOneM" configurationId="JUnit" />
+    <history-entry file="FunctionTest_LsdTest - 2021.12.02 at 10h 22m 34s.xml">
+      <configuration name="FunctionTest.LsdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_ReverseOneM - 2021.12.01 at 11h 41m 05s.xml">
-      <configuration name="MyTest.ReverseOneM" configurationId="JUnit" />
+    <history-entry file="FunctionTest_MsdTest - 2021.12.02 at 10h 23m 04s.xml">
+      <configuration name="FunctionTest.MsdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_ReverseOneM - 2021.12.01 at 11h 42m 58s.xml">
-      <configuration name="MyTest.ReverseOneM" configurationId="JUnit" />
+    <history-entry file="FunctionTest - 2021.12.02 at 10h 23m 50s.xml">
+      <configuration name="FunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_OrderOneM - 2021.12.01 at 11h 44m 37s.xml">
-      <configuration name="MyTest.OrderOneM" configurationId="JUnit" />
+    <history-entry file="FunctionTest - 2021.12.02 at 10h 24m 10s.xml">
+      <configuration name="FunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_RandomOneM - 2021.12.01 at 11h 45m 23s.xml">
-      <configuration name="MyTest.RandomOneM" configurationId="JUnit" />
+    <history-entry file="FunctionTest - 2021.12.02 at 10h 24m 13s.xml">
+      <configuration name="FunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_ReverseOneM - 2021.12.01 at 11h 53m 21s.xml">
-      <configuration name="MyTest.ReverseOneM" configurationId="JUnit" />
+    <history-entry file="FunctionTest - 2021.12.02 at 10h 24m 20s.xml">
+      <configuration name="FunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_OrderOneM - 2021.12.01 at 12h 12m 48s.xml">
-      <configuration name="MyTest.OrderOneM" configurationId="JUnit" />
+    <history-entry file="FunctionTest - 2021.12.02 at 10h 24m 44s.xml">
+      <configuration name="FunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_OrderOneM - 2021.12.01 at 12h 14m 48s.xml">
-      <configuration name="MyTest.OrderOneM" configurationId="JUnit" />
+    <history-entry file="FunctionTest - 2021.12.02 at 10h 25m 48s.xml">
+      <configuration name="FunctionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyTest_OrderOneM - 2021.12.01 at 12h 15m 42s.xml">
-      <configuration name="MyTest.OrderOneM" configurationId="JUnit" />
+    <history-entry file="FunctionTest - 2021.12.02 at 10h 26m 06s.xml">
+      <configuration name="FunctionTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21613000" />
+    <option name="totallyTimeSpent" value="33027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22014925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22014925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -482,7 +491,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2537961" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4273319" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28958786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -547,18 +556,6 @@
     <MESSAGE value="add Annotation" />
     <option name="LAST_COMMIT_MESSAGE" value="add Annotation" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java</url>
-          <line>89</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/team/kkk.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/team/CharacterPinYinConvert.class" />
@@ -566,54 +563,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/team/LSD.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/team/MSD.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/team/Timsort.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3680">
-          <caret line="160" column="14" selection-start-line="160" selection-start-column="14" selection-end-line="160" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3468#3476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/TXT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/GenerateName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="242" column="13" selection-start-line="242" selection-start-column="13" selection-end-line="242" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#278#286#0" expanded="true" />
-            <element signature="method#getRandomJianHan#0;class#GenerateName#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/MingZi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#738#739#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -628,37 +577,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NumTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1117">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SortCallable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/MingZi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-537">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/LSD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" selection-start-line="16" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -669,50 +598,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/MSD.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/TXT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="65" column="48" lean-forward="true" selection-start-line="54" selection-start-column="10" selection-end-line="65" selection-end-column="48" />
+        <state relative-caret-position="521">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/Timsort.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/GenerateName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="299">
+          <caret line="245" column="5" lean-forward="true" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#GenerateName#0" />
+            <element signature="e#278#286#0" expanded="true" />
+            <element signature="method#getRandomJianHan#0;class#GenerateName#0" />
+            <element signature="method#randomName#0;class#GenerateName#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/Benchmark.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/NumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="-3102">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2154">
+          <caret line="94" column="13" lean-forward="true" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SortCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1679">
+          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/MSD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/LSD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="257">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
+            <element signature="e#2285#2286#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="144" column="86" selection-start-line="144" selection-start-column="86" selection-end-line="144" selection-end-column="86" />
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/Timsort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2323">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="e#2498#2499#0" expanded="true" />
+            <element signature="e#2550#2551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/Benchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

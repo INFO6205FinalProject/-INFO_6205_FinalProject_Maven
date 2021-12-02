@@ -7,24 +7,7 @@ import java.util.Random;
 
 public class GenerateName {
 
-    public static void main(String[] args) {
-        /**随机产生100个昵称*/
-        HashSet<String> set = new HashSet<String>();
-        for (int i = 0; i < 100; i++) {
-            String chineseName = randomName();
-            if (!set.contains(chineseName)) {
-                set.add(chineseName);
-            }
-        }
-
-        Iterator<String> iterator = set.iterator();
-
-        while (iterator.hasNext()) {
-            System.err.print(iterator.next() + "\n");
-        }
-
-    }
-    /**方法1*/
+    /**function 1*/
     public static String getRandomJianHan(int len) {
         String randomName = "";
         for (int i = 0; i < len; i++) {
@@ -45,7 +28,7 @@ public class GenerateName {
         }
         return randomName;
     }
-    /**方法2*/
+    /**function 2*/
     public static String randomName() {
         String surName[] = {
                 "赵","钱","孙","李","周","吴","郑","王","冯","陈","楮","卫","蒋","沈","韩","杨",

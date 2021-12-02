@@ -9,7 +9,7 @@ import team.SortMethod;
 import java.util.Arrays;
 import java.util.concurrent.*;
 
-public class MyTest {
+public class OrderTest {
 
     ThreadPoolExecutor threadPool;
 
@@ -22,19 +22,6 @@ public class MyTest {
         System.out.println();
     }
 
-     private MingZi[] orderArr(MingZi[] arr){
-         Arrays.sort(arr,(name1,name2)->{
-             return name1.compareTo(name2);
-         });
-         return  arr;
-     }
-
-    private MingZi[] reverseOrder(MingZi[] arr){
-        Arrays.sort(arr,(name1,name2)->{
-            return name2.compareTo(name1);
-        });
-        return  arr;
-    }
 
     @After
     public void after() {
@@ -45,12 +32,14 @@ public class MyTest {
 
     @Test
     public void RandomOneM() {
+        int arrSize = 1000000;
+        String sortType = "random";
         threadPool = new ThreadPoolExecutor(5, 6, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 
-        SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,1000000, "random");
-        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,1000000, "random");
-        SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,1000000, "random");
-        SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,1000000, "random");
+        SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,arrSize, sortType);
+        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,arrSize, sortType);
+        SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,arrSize, sortType);
+        SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,arrSize, sortType);
 
         Future<Long> timResult = threadPool.submit(timCall);
         Future<Long> quickResult = threadPool.submit(quickCall);
@@ -83,13 +72,14 @@ public class MyTest {
 
     @Test
     public void OrderOneM() {
-
+        int arrSize = 500000;
+        String sortType = "order";
         threadPool = new ThreadPoolExecutor(5, 6, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 
-        SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,1000000,"order");
-        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,1000000,"order");
-        SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,1000000,"order");
-        SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,1000000,"order");
+        SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,arrSize,sortType);
+        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,arrSize,sortType);
+        SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,arrSize,sortType);
+        SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,arrSize,sortType);
 
         Future<Long> timResult = threadPool.submit(timCall);
         Future<Long> quickResult = threadPool.submit(quickCall);
@@ -121,13 +111,14 @@ public class MyTest {
 
     @Test
     public void ReverseOneM() {
-
+        int arrSize = 500000;
+        String sortType = "reverse";
         threadPool = new ThreadPoolExecutor(5, 6, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 
-        SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,1000000,"reverse");
-        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,1000000,"reverse");
-        SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,1000000,"reverse");
-        SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,1000000,"reverse");
+        SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,arrSize,sortType);
+        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,arrSize,sortType);
+        SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,arrSize,sortType);
+        SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,arrSize,sortType);
 
         Future<Long> timResult = threadPool.submit(timCall);
         Future<Long> quickResult = threadPool.submit(quickCall);
@@ -152,49 +143,5 @@ public class MyTest {
         }
 
     }
-
-    class SortCallable implements Callable<Long> {
-
-        private  String name;
-        private  SortMethod sortMethod;
-        private  int arrSize;
-        private  String sortType;
-        public SortCallable(String name, SortMethod sortMethod, int arrSize, String sortType) {
-            this.name = name;
-            this.sortMethod = sortMethod;
-            this.arrSize = arrSize;
-            this.sortType = sortType;
-        }
-
-        @Override
-        public Long call() throws Exception {
-
-            System.out.println(name+ " thread start");
-            MingZi[] arr = new MingZi[arrSize];
-
-            //data source
-            for(int i = 0;i<arr.length;i++){
-                arr[i] = new MingZi(GenerateName.randomName());
-            }
-
-            if(this.sortType.equals("random")){
-                //ToDo
-            }else if(this.sortType.equals("order")){
-                arr = orderArr(arr);
-            }else if(this.sortType.equals("reverse")){
-                arr = reverseOrder(arr);
-            }else{
-                System.out.println("SortType Error");
-                return null;
-            }
-
-            Benchmark tim = new Benchmark(sortMethod, arr);
-            tim.runBenchmark();
-            long timTime = tim.getTime();
-
-            return timTime;
-        }
-    }
-
 
 }
