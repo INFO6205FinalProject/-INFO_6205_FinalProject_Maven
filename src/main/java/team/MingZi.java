@@ -8,10 +8,10 @@ public class MingZi implements Comparable<MingZi>{
 
     public MingZi(String hanZi) {
         this.hanZi = hanZi;
-        toPinYin();
+
     }
     // converted to PinYin
-    private void toPinYin(){
+    public void toPinYin(){
         ChineseCharToEn.CharacterPinYinConvert convert = new ChineseCharToEn.CharacterPinYinConvert();
         String name = this.getHanZi();
         this.pinYin = convert.toPinYin(name);
