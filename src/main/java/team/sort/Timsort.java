@@ -78,7 +78,8 @@ public class Timsort implements Sort {
         }
     }
 
-    public static void timSort(MingZi[] arr, int n) {
+    public static void TimSort(MingZi[] arr) {
+        int n = arr.length;
         int minRun = minRunLength(MIN_MERGE);
 
         for (int i = 0; i < n; i += minRun) {
@@ -99,16 +100,12 @@ public class Timsort implements Sort {
         }
     }
 
-    public Timsort(){
-
-    }
-
     @Override
     public void setData(MingZi[] data){
         this.data = data;
     }
     @Override
     public void run() {
-        timSort(this.data, this.data.length);
+        TimSort(this.data);
     }
 }

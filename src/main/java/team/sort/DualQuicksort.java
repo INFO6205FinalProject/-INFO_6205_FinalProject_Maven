@@ -1,13 +1,7 @@
 package team.sort;
 
-import team.Benchmark;
-import team.GenerateName;
 import team.MingZi;
 
-import java.util.Arrays;
-
-import static team.SortMethod.MSDSort;
-import static team.SortMethod.QuickSort;
 
 public class DualQuicksort implements Sort {
 
@@ -20,17 +14,17 @@ public class DualQuicksort implements Sort {
         arr[j] = temp;
     }
 
-    static void dualPivotQuickSort(MingZi[] arr,
-                                   int low, int high)
+    public static void DualPivotQuickSort(MingZi[] arr,
+                                          int low, int high)
     {
         if (low < high)
         {
             int[] piv;
             piv = partition(arr, low, high);
 
-            dualPivotQuickSort(arr, low, piv[0] - 1);
-            dualPivotQuickSort(arr, piv[0] + 1, piv[1] - 1);
-            dualPivotQuickSort(arr, piv[1] + 1, high);
+            DualPivotQuickSort(arr, low, piv[0] - 1);
+            DualPivotQuickSort(arr, piv[0] + 1, piv[1] - 1);
+            DualPivotQuickSort(arr, piv[1] + 1, high);
         }
     }
 
@@ -74,32 +68,13 @@ public class DualQuicksort implements Sort {
         return new int[] { j, g };
     }
 
-    // Driver code
-    public static void main(String[] args)
-    {
-
-        MingZi[] k = new MingZi[1000000];
-
-        for(int i = 0;i<1000000;i++){
-            k[i] = new MingZi(GenerateName.randomName());
-        }
-        Arrays.sort(k,(name1, name2)->{
-            return  name2.compareTo(name1);
-        });
-
-        Benchmark benchmark = new Benchmark(QuickSort,k);
-        benchmark.runBenchmark();
-
-        System.out.println(benchmark.getTime());
-
-    }
-
     @Override
     public void setData(MingZi[] data){
         this.data = data;
     }
     @Override
     public void run() {
-        dualPivotQuickSort(this.data, 0, this.data.length - 1);
+        DualPivotQuickSort(this.data, 0, this.data.length - 1);
     }
+
 }

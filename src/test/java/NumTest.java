@@ -5,135 +5,167 @@ import team.GenerateName;
 import team.MingZi;
 import team.SortMethod;
 
-public class NumTest {
-    MingZi[] oneM,twoM,fourM,eigM;
+import java.util.concurrent.*;
 
-    int k = 0;
+public class NumTest {
+
+    ThreadPoolExecutor threadPool;
+
     @Before
     public void before() {
 
         System.out.println("pre working, prepare data resource");
-        oneM  = new MingZi[1000000];
-        twoM  = new MingZi[2000000];
-        fourM  = new MingZi[4000000];
-        eigM  = new MingZi[8000000];
 
-        for(int i = 0;i<oneM.length;i++){
-            String name = GenerateName.randomName();
-            oneM[i] = new MingZi(name);
-        }
-
-        for(int i = 0;i<twoM.length;i++){
-            String name = GenerateName.randomName();
-            twoM[i] = new MingZi(name);
-        }
-
-        for(int i = 0;i<fourM.length;i++){
-            String name = GenerateName.randomName();
-            fourM[i] = new MingZi(name);
-        }
-
-        for(int i = 0;i<eigM.length;i++){
-            String name = GenerateName.randomName();
-            eigM[i] = new MingZi(name);
-        }
     }
 
     @Test
     public void OneM() {
 
-        Benchmark tim = new Benchmark(SortMethod.TimSort, oneM);
-        Benchmark msd = new Benchmark(SortMethod.MSDSort, oneM);
-        Benchmark lsd = new Benchmark(SortMethod.LSDSort, oneM);
-        Benchmark dq = new Benchmark(SortMethod.QuickSort, oneM);
+        threadPool = new ThreadPoolExecutor(5, 6, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 
-        tim.runBenchmark();
-        msd.runBenchmark();
-        lsd.runBenchmark();
-        dq.runBenchmark();
+        SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,1000000, "random");
+        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,1000000, "random");
+        SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,1000000, "random");
+        SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,1000000, "random");
 
-        long timTime = tim.getTime();
-        long msdTime = msd.getTime();
-        long lsdTime = lsd.getTime();
-        long dqTime = dq.getTime();
+        Future<Long> timResult = threadPool.submit(timCall);
+        Future<Long> quickResult = threadPool.submit(quickCall);
+        Future<Long> msdResult = threadPool.submit(msdCall);
+        Future<Long> lsdResult = threadPool.submit(lsdCall);
 
-        System.out.println("TimSort in random  milliseconds:" + timTime);
-        System.out.println("MsdTime in random  milliseconds:" + msdTime);
-        System.out.println("LsdTime in random milliseconds:" + lsdTime);
-        System.out.println("DqTime in  random  milliseconds:" + dqTime);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e1) {
+            e1.printStackTrace();
+        }
+
+        try {
+            System.out.println();
+            System.out.println("TimSort in 1M random  milliseconds:" + timResult.get());
+            System.out.println("QuickSort in 1M random  milliseconds:" + quickResult.get());
+            System.out.println("LsdSort in 1M random  milliseconds:" + lsdResult.get());
+            System.out.println("MsdSort in 1M random  milliseconds:" + msdResult.get());
+
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
 
     }
 
     @Test
     public void twoM() {
 
-        Benchmark tim = new Benchmark(SortMethod.TimSort, twoM);
-        Benchmark msd = new Benchmark(SortMethod.MSDSort, twoM);
-        Benchmark lsd = new Benchmark(SortMethod.LSDSort, twoM);
-        Benchmark dq = new Benchmark(SortMethod.QuickSort, twoM);
+        threadPool = new ThreadPoolExecutor(5, 6, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 
-        tim.runBenchmark();
-        msd.runBenchmark();
-        lsd.runBenchmark();
-        dq.runBenchmark();
+        SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,2000000, "random");
+        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,2000000, "random");
+        SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,2000000, "random");
+        SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,2000000, "random");
 
-        long timTime = tim.getTime();
-        long msdTime = msd.getTime();
-        long lsdTime = lsd.getTime();
-        long dqTime = dq.getTime();
+        Future<Long> timResult = threadPool.submit(timCall);
+        Future<Long> quickResult = threadPool.submit(quickCall);
+        Future<Long> msdResult = threadPool.submit(msdCall);
+        Future<Long> lsdResult = threadPool.submit(lsdCall);
 
-        System.out.println("TimSort in random  milliseconds:" + timTime);
-        System.out.println("MsdTime in random  milliseconds:" + msdTime);
-        System.out.println("LsdTime in random milliseconds:" + lsdTime);
-        System.out.println("DqTime in  random  milliseconds:" + dqTime);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e1) {
+            e1.printStackTrace();
+        }
 
+        try {
+            System.out.println();
+            System.out.println("TimSort in 2M random  milliseconds:" + timResult.get());
+            System.out.println("QuickSort in 2M random  milliseconds:" + quickResult.get());
+            System.out.println("LsdSort in 2M random  milliseconds:" + lsdResult.get());
+            System.out.println("MsdSort in 2M random  milliseconds:" + msdResult.get());
+
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
     @Test
     public void fourM() {
 
-        Benchmark tim = new Benchmark(SortMethod.TimSort, fourM);
-        Benchmark msd = new Benchmark(SortMethod.MSDSort, fourM);
-        Benchmark lsd = new Benchmark(SortMethod.LSDSort, fourM);
-        Benchmark dq = new Benchmark(SortMethod.QuickSort, fourM);
+        threadPool = new ThreadPoolExecutor(5, 6, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 
-        tim.runBenchmark();
-        msd.runBenchmark();
-        lsd.runBenchmark();
-        dq.runBenchmark();
+        SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,4000000, "random");
+        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,4000000, "random");
+        SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,4000000, "random");
+        SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,4000000, "random");
 
-        long timTime = tim.getTime();
-        long msdTime = msd.getTime();
-        long lsdTime = lsd.getTime();
-        long dqTime = dq.getTime();
+        Future<Long> timResult = threadPool.submit(timCall);
+        Future<Long> quickResult = threadPool.submit(quickCall);
+        Future<Long> msdResult = threadPool.submit(msdCall);
+        Future<Long> lsdResult = threadPool.submit(lsdCall);
 
-        System.out.println("TimSort in random  milliseconds:" + timTime);
-        System.out.println("MsdTime in random  milliseconds:" + msdTime);
-        System.out.println("LsdTime in random milliseconds:" + lsdTime);
-        System.out.println("DqTime in  random  milliseconds:" + dqTime);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e1) {
+            e1.printStackTrace();
+        }
+
+        try {
+            System.out.println();
+            System.out.println("TimSort in 4M random  milliseconds:" + timResult.get());
+            System.out.println("QuickSort in 4M random  milliseconds:" + quickResult.get());
+            System.out.println("LsdSort in 4M random  milliseconds:" + lsdResult.get());
+            System.out.println("MsdSort in 4M random  milliseconds:" + msdResult.get());
+
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
     }
     @Test
     public void eigM() {
 
-        Benchmark tim = new Benchmark(SortMethod.TimSort, eigM);
-        Benchmark msd = new Benchmark(SortMethod.MSDSort, eigM);
-        Benchmark lsd = new Benchmark(SortMethod.LSDSort, eigM);
-        Benchmark dq = new Benchmark(SortMethod.QuickSort, eigM);
 
-        tim.runBenchmark();
-        msd.runBenchmark();
-        lsd.runBenchmark();
-        dq.runBenchmark();
+        threadPool = new ThreadPoolExecutor(5, 6, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
 
-        long timTime = tim.getTime();
-        long msdTime = msd.getTime();
-        long lsdTime = lsd.getTime();
-        long dqTime = dq.getTime();
+        SortCallable timCall= new SortCallable("TimSort",SortMethod.TimSort,8000000, "random");
+        SortCallable quickCall= new SortCallable("QuickSort",SortMethod.QuickSort,8000000, "random");
+        SortCallable msdCall= new SortCallable("MsdSort",SortMethod.MSDSort,8000000, "random");
+        SortCallable lsdCall= new SortCallable("LsdSort",SortMethod.LSDSort,8000000, "random");
 
-        System.out.println("TimSort in random  milliseconds:" + timTime);
-        System.out.println("MsdTime in random  milliseconds:" + msdTime);
-        System.out.println("LsdTime in random milliseconds:" + lsdTime);
-        System.out.println("DqTime in  random  milliseconds:" + dqTime);
+        Future<Long> timResult = threadPool.submit(timCall);
+        Future<Long> quickResult = threadPool.submit(quickCall);
+        Future<Long> msdResult = threadPool.submit(msdCall);
+        Future<Long> lsdResult = threadPool.submit(lsdCall);
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e1) {
+            e1.printStackTrace();
+        }
+
+        try {
+            System.out.println();
+            System.out.println("LsdSort in 8M random  milliseconds:" + lsdResult.get());
+            System.out.println("MsdSort in 8M random  milliseconds:" + msdResult.get());
+            System.out.println("TimSort in 8M random  milliseconds:" + timResult.get());
+            System.out.println("QuickSort in 8M random  milliseconds:" + quickResult.get());
+
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
     }
 

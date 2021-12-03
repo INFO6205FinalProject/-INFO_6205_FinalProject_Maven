@@ -13,33 +13,34 @@ import java.util.Set;
 public class ChineseCharToEn {
     public static class CharacterPinYinConvert
     {
-        /** 设置汉字拼音输出的格式 **/
+        /** set output format **/
         HanyuPinyinOutputFormat format = null;
 
         /**
-         * 默认构造方法，初始化汉字拼音输出格式
+         * constructor
          */
         public CharacterPinYinConvert()
         {
-            // 设置汉字拼音输出的格式
+            // set output format
             format = new HanyuPinyinOutputFormat();
-            // 不使用音调标记，
+
+            // no tone set
             format.setToneType(HanyuPinyinToneType.WITHOUT_TONE);
-            // 如果使用WITH_TONE_MARK，则必须指定setVCharType为WITH_U_UNICODE，否则报错
+            //
             // fmt.setToneType(HanyuPinyinToneType.WITH_TONE_MARK);
             // fmt.setVCharType(HanyuPinyinVCharType.WITH_U_UNICODE);
 
-            // 韵母“驴”(lu->lv)使用V来代替
+            //
             format.setVCharType(HanyuPinyinVCharType.WITH_V);
-            // 返回的拼音为小字字母
+            //
             format.setCaseType(HanyuPinyinCaseType.LOWERCASE);
         }
 
         /**
-         * 汉字转拼音
+         * chinese letter to pinyin
          *
          * @param text
-         *           待转换字符串
+         *
          * @return allPinYin
          */
         public String toPinYin(String text)
@@ -53,10 +54,10 @@ public class ChineseCharToEn {
                 {
                     try
                     {
-                        // 返回汉字的全部拼音(因为有些汉字为多音字，否则只返回一个)
+
                         String[] pinYinArray = PinyinHelper.toHanyuPinyinStringArray(
                                 wordChar, format);
-                        // 取第一个拼音
+
                         String pinYin = pinYinArray[0];
                         if (pinYin != null)
                         {
@@ -77,10 +78,10 @@ public class ChineseCharToEn {
         }
 
         /**
-         * 汉字转拼音
+         * chinese letter to pinyin
          *
          * @param text
-         *           待转换字符串
+         *
          * @return pinYinSet
          */
         public Set<String> toPinYins(String text)
@@ -158,13 +159,5 @@ public class ChineseCharToEn {
             }
         }
 
-        public void main(String[] args)
-        {
-            CharacterPinYinConvert convert = new CharacterPinYinConvert();
-            String name = "蒋固金";
-            System.out.println(convert.toPinYins(name));
-            String muti = "囤";
-            System.out.println(convert.toPinYins(muti));
-        }
     }
 }
