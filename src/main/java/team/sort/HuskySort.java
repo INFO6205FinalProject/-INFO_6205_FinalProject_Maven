@@ -42,6 +42,12 @@ public class HuskySort implements Sort{
     public void setData(MingZi[] data){
         this.data = data;
     }
+    @Override
+    public void preWork() {
+        for(MingZi n:this.data){
+            n.toPinYin();
+        }
+    }
     public void sort(){
         // NOTE: we start with a random shuffle
         // This is necessary if we might be sorting a pre-sorted array. Otherwise, we usually don't need it.

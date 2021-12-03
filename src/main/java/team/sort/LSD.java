@@ -50,4 +50,11 @@ public class LSD implements Sort {
     public void run() {
         LSDSort(this.data);
     }
+
+    @Override
+    public void preWork() {
+        for(MingZi n:this.data){
+            n.toPinYin();
+        }
+    }
 }

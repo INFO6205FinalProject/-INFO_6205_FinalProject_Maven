@@ -20,7 +20,7 @@ public class FunctionTest {
         int loop = 50;
         while(loop>0) {
             for (int i = 0; i < arr.length; i++) {
-                arr[i] = new MingZi(GenerateName.randomName());
+                arr[i] = new MingZi(GenerateName.randomName(),true);
                 test[i] = arr[i];
             }
 
@@ -49,7 +49,7 @@ public class FunctionTest {
         int loop = 50;
         while(loop>0) {
             for (int i = 0; i < arr.length; i++) {
-                arr[i] = new MingZi(GenerateName.randomName());
+                arr[i] = new MingZi(GenerateName.randomName(),true);
                 test[i] = arr[i];
             }
 
@@ -77,7 +77,7 @@ public class FunctionTest {
         int loop = 10;
         while(loop>0){
             for(int i = 0;i<arr.length;i++){
-                arr[i] = new MingZi(GenerateName.randomName());
+                arr[i] = new MingZi(GenerateName.randomName(),true);
                 test[i] = arr[i];
             }
 
@@ -106,7 +106,7 @@ public class FunctionTest {
         int loop = 50;
         while(loop>0) {
             for (int i = 0; i < arr.length; i++) {
-                arr[i] = new MingZi(GenerateName.randomName());
+                arr[i] = new MingZi(GenerateName.randomName(),true);
                 test[i] = arr[i];
             }
 

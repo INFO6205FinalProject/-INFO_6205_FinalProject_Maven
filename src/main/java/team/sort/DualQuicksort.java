@@ -77,4 +77,10 @@ public class DualQuicksort implements Sort {
         DualPivotQuickSort(this.data, 0, this.data.length - 1);
     }
 
+    @Override
+    public void preWork() {
+        for(MingZi n:this.data){
+            n.toPinYin();
+        }
+    }
 }

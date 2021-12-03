@@ -8,7 +8,11 @@ public class MingZi implements Comparable<MingZi>{
 
     public MingZi(String hanZi) {
         this.hanZi = hanZi;
+    }
 
+    public MingZi(String hanZi,boolean convert) {
+        this.hanZi = hanZi;
+        if(convert) toPinYin();
     }
     // converted to PinYin
     public void toPinYin(){

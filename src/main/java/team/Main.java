@@ -19,9 +19,9 @@ public class Main {
         for(int i = 0; i<mz.size(); i++){
             m[i] = mz.get(i);
             // LSD needs to keep all member into the same length
-            m[i].add_zero();
+//            m[i].add_zero();
         }
-        LSD.LSD_sort(m);
+       // LSD.LSD_sort(m);
 //        Arrays.sort(m, new Comparator<MingZi>() {
 //            @Override
 //            public int compare(MingZi o1, MingZi o2) {

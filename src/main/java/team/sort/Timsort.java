@@ -108,4 +108,11 @@ public class Timsort implements Sort {
     public void run() {
         TimSort(this.data);
     }
+
+    @Override
+    public void preWork() {
+        for(MingZi n:this.data){
+            n.toPinYin();
+        }
+    }
 }

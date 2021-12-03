@@ -52,4 +52,11 @@ public class MSD implements Sort {
     public void run() {
         MSDSort(this.data);
     }
+
+    @Override
+    public void preWork() {
+        for(MingZi n:this.data){
+            n.toPinYin();
+        }
+    }
 }

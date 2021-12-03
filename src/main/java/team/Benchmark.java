@@ -77,6 +77,7 @@ public class Benchmark {
 
     public void runBenchmark() {
         long startTime = System.currentTimeMillis();
+        this.sortAlgorithm.preWork();
         this.sortAlgorithm.run();
         long endTime = System.currentTimeMillis();
         this.time = endTime - startTime;
