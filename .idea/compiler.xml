@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="6205team" />
         <module name="INFO_6205_FinalProject_Maven" />
+        <module name="6205team" />
       </profile>
     </annotationProcessing>
   </component>
