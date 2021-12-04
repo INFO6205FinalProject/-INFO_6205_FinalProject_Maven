@@ -23,11 +23,11 @@ public class SortCallable implements Callable<Long> {
     public Long call() throws Exception {
 
         System.out.println(name+ " thread start");
-        MingZi[] arr = new MingZi[arrSize];
+        String[] arr = new String[arrSize];
 
         for(int i = 0;i<arr.length;i++){
-            String name = GenerateName.randomName();
-            arr[i] = new MingZi(name);
+
+            arr[i] = GenerateName.randomName();
         }
 
         if(this.sortType.equals("random")){
@@ -47,14 +47,14 @@ public class SortCallable implements Callable<Long> {
         return timTime;
     }
 
-    private MingZi[] orderArr(MingZi[] arr){
+    private String[] orderArr(String[] arr){
         Arrays.sort(arr,(name1, name2)->{
             return name1.compareTo(name2);
         });
         return  arr;
     }
 
-    private MingZi[] reverseOrder(MingZi[] arr){
+    private String[] reverseOrder(String[] arr){
         Arrays.sort(arr,(name1,name2)->{
             return name2.compareTo(name1);
         });

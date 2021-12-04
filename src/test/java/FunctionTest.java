@@ -3,6 +3,7 @@ import org.junit.Test;
 import team.GenerateName;
 import team.MingZi;
 import team.sort.*;
+import team.sort.HuskySortDir.HuskySortBenchmark;
 
 import java.util.Arrays;
 
@@ -67,29 +68,32 @@ public class FunctionTest {
     }
     @Test
     public void HuskySortTest() {
-        MingZi[] arr = new MingZi[arrSize];
+        String[] arr = new String[arrSize];
         MingZi[] test = new MingZi[arrSize];
         boolean flag = true;
-        int loop = 50;
+        int loop = 1;
         while(loop>0) {
             for (int i = 0; i < arr.length; i++) {
-                arr[i] = new MingZi(GenerateName.randomName(),true);
-                test[i] = arr[i];
+                arr[i] = GenerateName.randomName();
+                test[i] = new MingZi(arr[i],true);
             }
 
+            HuskySortBenchmark hs = new HuskySortBenchmark();
+            hs.setData(arr);
+            hs.runBenchmark();
 
             Arrays.sort(test);
 
             for (int i = 0; i < arr.length; i++) {
-                if (!arr[i].getHanZi().equals(test[i].getHanZi())) {
+                if (!arr[i].equals(test[i].getHanZi())) {
                     flag = false;
                     break;
                 }
-
             }
             if(!flag) break;
             loop--;
         }
+
         Assert.assertEquals(true,flag);
     }
     @Test

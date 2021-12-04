@@ -12,7 +12,7 @@ public class HuskySortBenchmark {
     private String[] data;
     private PureHuskySort<String> sorter;
     public HuskySortBenchmark(){
-        this.sorter = new PureHuskySort<>(HuskyCoderFactory.chineseEncoder, false, false, Collator.getInstance(Locale.CHINESE));
+        this.sorter = new PureHuskySort<>(HuskyCoderFactory.chineseEncoder, false, false, Collator.getInstance(Locale.CHINA));
     }
     public void warmup() {
         for(int i = 0; i < 10; i++){
