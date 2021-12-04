@@ -6,30 +6,67 @@
   <component name="ChangeListManager">
     <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/BenchmarkForHuskySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/BenchmarkForHuskySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/HuskySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortCombo/sort/huskySort/PureHuskySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortCombo/sort/huskySort/PureHuskySort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/LSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/LSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Benchmark$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Benchmark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/BenchmarkForHuskySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/BenchmarkForHuskySort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/DualQuicksort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/DualQuicksort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/HuskySort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortCombo/sort/huskySort/PureHuskySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/HuskySortCombo/sort/huskySort/PureHuskySort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/LSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/LSD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/MSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/MSD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/Timsort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/Timsort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FunctionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskySort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskyInsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/team/HuskySortBenchmark.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FunctionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/NumTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="169" column="5" lean-forward="true" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,6 +120,8 @@
         <option value="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/MingZi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/sort/HuskyInsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/HuskySortBenchmark.java" />
         <option value="$PROJECT_DIR$/src/test/java/FunctionTest.java" />
       </list>
     </option>
@@ -182,7 +221,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638564446783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638594648705" />
     <property name="last_opened_file_path" value="D:/Northeastern/INFO6205/INFO6205-Fall2021" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -192,13 +231,25 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="Application.Benchmark">
     <configuration name="Benchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="team.Benchmark" />
       <module name="6205team" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="team.*" />
+          <option name="PATTERN" value="team.sort.HuskySortDir.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BenchmarkForHuskySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="team.BenchmarkForHuskySort" />
-      <module name="6205team" />
+    <configuration name="HuskySortBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="team.sort.HuskySortDir.HuskySortBenchmark" />
+      <module name="INFO_6205_FinalProject_Maven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="team.*" />
+          <option name="PATTERN" value="team.sort.HuskySortDir.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,14 +301,14 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Benchmark" />
-        <item itemvalue="Application.BenchmarkForHuskySort" />
+        <item itemvalue="Application.HuskySortBenchmark" />
         <item itemvalue="JUnit.OrderTest.RandomOneM" />
         <item itemvalue="JUnit.FunctionTest" />
         <item itemvalue="JUnit.OrderTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -368,12 +419,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33792000" />
+    <option name="totallyTimeSpent" value="33994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22014925" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22014925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -383,7 +434,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2537961" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5802603" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.5802603" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -413,7 +464,14 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -494,16 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3102">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -535,20 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/InsertionSortForHusky.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -608,16 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FunctionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2208">
-          <caret line="108" column="66" selection-start-line="108" selection-start-column="66" selection-end-line="108" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/OrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
@@ -625,6 +649,47 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/HuskySortBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/NumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="169" column="5" lean-forward="true" selection-start-line="169" selection-start-column="5" selection-end-line="169" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FunctionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="75" column="50" lean-forward="true" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskyInsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>

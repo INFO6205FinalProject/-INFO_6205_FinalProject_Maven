@@ -2,10 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import team.GenerateName;
 import team.MingZi;
-import team.sort.DualQuicksort;
-import team.sort.LSD;
-import team.sort.MSD;
-import team.sort.Timsort;
+import team.sort.*;
 
 import java.util.Arrays;
 
@@ -54,6 +51,33 @@ public class FunctionTest {
             }
 
             Timsort.TimSort(arr);
+            Arrays.sort(test);
+
+            for (int i = 0; i < arr.length; i++) {
+                if (!arr[i].getHanZi().equals(test[i].getHanZi())) {
+                    flag = false;
+                    break;
+                }
+
+            }
+            if(!flag) break;
+            loop--;
+        }
+        Assert.assertEquals(true,flag);
+    }
+    @Test
+    public void HuskySortTest() {
+        MingZi[] arr = new MingZi[arrSize];
+        MingZi[] test = new MingZi[arrSize];
+        boolean flag = true;
+        int loop = 50;
+        while(loop>0) {
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = new MingZi(GenerateName.randomName(),true);
+                test[i] = arr[i];
+            }
+
+
             Arrays.sort(test);
 
             for (int i = 0; i < arr.length; i++) {

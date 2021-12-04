@@ -1,12 +1,12 @@
 package team;
 
 import team.sort.*;
-import team.sort.HuskySortCoder.Coder;
-import team.sort.HuskySortCoder.EnglishCoder;
-import team.sort.HuskySortCoder.UTF8Coder;
-import team.sort.HuskySortCoder.UnicodeCoder;
-
-import java.util.ArrayList;
+import team.sort.HuskySortDir.HuskyEncode;
+import team.sort.HuskySortDir.HuskySort;
+import team.sort.HuskySortDir.HuskySortCoder.Coder;
+import team.sort.HuskySortDir.HuskySortCoder.EnglishCoder;
+import team.sort.HuskySortDir.HuskySortCoder.UTF8Coder;
+import team.sort.HuskySortDir.HuskySortCoder.UnicodeCoder;
 
 public class Benchmark {
 
