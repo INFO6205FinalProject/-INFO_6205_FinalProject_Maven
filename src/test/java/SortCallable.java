@@ -2,6 +2,8 @@ import team.Benchmark;
 import team.GenerateName;
 import team.MingZi;
 import team.SortMethod;
+import team.sort.HuskySortDir.HuskySortCombo.sort.huskySort.HuskySortBenchmark;
+import team.sort.HuskySortDir.MyHuskySortBenchmark;
 
 import java.util.Arrays;
 import java.util.concurrent.Callable;
@@ -40,10 +42,20 @@ public class SortCallable implements Callable<Long> {
             System.out.println("SortType Error");
             return null;
         }
+        long timTime;
 
-        Benchmark tim = new Benchmark(sortMethod, arr);
-        tim.runBenchmark();
-        long timTime = tim.getTime();
+        if(sortMethod == SortMethod.HuskySort){
+            MyHuskySortBenchmark tim = new MyHuskySortBenchmark();
+            tim.setData(arr);
+            tim.runBenchmark();
+            timTime = tim.getTime();
+
+        }else{
+            Benchmark tim = new Benchmark(sortMethod, arr);
+            tim.runBenchmark();
+            timTime = tim.getTime();
+        }
+
         return timTime;
     }
 

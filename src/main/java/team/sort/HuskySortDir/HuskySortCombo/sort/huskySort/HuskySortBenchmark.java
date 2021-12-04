@@ -324,7 +324,7 @@ public final class HuskySortBenchmark {
     public static void main(final String[] args) throws IOException {
         final Config config = Config.load(HuskySortBenchmark.class);
         logger.info("***********************************************************************************************\n" +
-                "HuskySortBenchmark.main: " + config.get("huskysort", "version"));
+                "MyHuskySortBenchmark.main: " + config.get("huskysort", "version"));
         final HuskySortBenchmark benchmark = new HuskySortBenchmark(config);
         benchmark.runBenchmarks();
         logger.info("***********************************************************************************************\n");
