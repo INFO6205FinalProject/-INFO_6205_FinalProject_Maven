@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SortCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortCallable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Benchmark$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Benchmark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskyEncode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortCoder/Coder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortCoder/EnglishCoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortCoder/UTF8Coder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortCoder/UnicodeCoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/InsertionSortForHusky.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FunctionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FunctionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/ChineseCharToEn$CharacterPinYinConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/ChineseCharToEn$CharacterPinYinConvert.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/NumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SortCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SortCallable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/OrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/OrderTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,28 +19,47 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/team/MingZi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/team/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="470">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/Benchmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="96" column="39" lean-forward="true" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskyInsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -100,23 +106,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/NumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="131" column="46" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
+            <state relative-caret-position="676">
+              <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11.0.8/lib/src.zip!/java.base/java/util/concurrent/AbstractExecutorService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -174,7 +171,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/team/GenerateName.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/Benchmark.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/sort/Sort.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java" />
@@ -182,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/java/team/sort/LSD.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/sort/MSD.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/sort/Timsort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/team/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/MingZi.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/sort/HuskyInsertionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/team/HuskySortBenchmark.java" />
@@ -192,6 +187,8 @@
         <option value="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortCombo/sort/huskySort/PureHuskySort.java" />
         <option value="$PROJECT_DIR$/src/test/java/OrderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/NumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/team/Main.java" />
       </list>
     </option>
   </component>
@@ -307,7 +304,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638632207796" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638637660910" />
     <property name="last_opened_file_path" value="D:/Northeastern/INFO6205/INFO6205-Fall2021" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -329,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FunctionTest.HuskySortTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Benchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="team.Benchmark" />
       <module name="6205team" />
@@ -356,6 +353,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="team.Main" />
+      <module name="INFO_6205_FinalProject_Maven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="team.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="INFO_6205_FinalProject_Maven" />
       <option name="PACKAGE_NAME" value="" />
@@ -375,23 +385,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.RandomOneM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO_6205_FinalProject_Maven" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OrderTest" />
-      <option name="METHOD_NAME" value="RandomOneM" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FunctionTest.HuskySortTest" />
         <item itemvalue="JUnit.FunctionTest" />
         <item itemvalue="Application.Benchmark" />
         <item itemvalue="Application.HuskySortBenchmark" />
-        <item itemvalue="JUnit.OrderTest.RandomOneM" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +506,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36997000" />
+    <option name="totallyTimeSpent" value="37953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,7 +521,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22014925" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22014925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -531,7 +531,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2537961" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.0845987" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38177875" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14967462" />
@@ -606,6 +606,12 @@
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/team/Main.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -661,16 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/DualQuicksort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
@@ -699,31 +695,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/LSD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/MingZi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,13 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -822,8 +790,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/NumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="131" column="46" selection-start-line="131" selection-start-column="46" selection-end-line="131" selection-end-column="46" />
+        <state relative-caret-position="676">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/ChineseCharToEn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/MingZi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/team/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

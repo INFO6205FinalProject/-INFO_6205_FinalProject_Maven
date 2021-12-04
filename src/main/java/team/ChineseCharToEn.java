@@ -62,6 +62,7 @@ public class ChineseCharToEn {
                         if (pinYin != null)
                         {
                             allPinYin.append(pinYin);
+                            allPinYin.append(' ');
                         }
                     }
                     catch (Exception e)
@@ -72,6 +73,7 @@ public class ChineseCharToEn {
                         || ((int) wordChar >= 97 && (int) wordChar <= 122))
                 {
                     allPinYin.append(wordChar);
+                    allPinYin.append(' ');
                 }
             }
             return allPinYin.toString();
