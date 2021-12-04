@@ -6,141 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/team/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/MyHuskySortBenchmark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortCombo/sort/huskySort/HuskySortBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortCombo/sort/huskySort/HuskySortBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortCombo/sort/huskySort/PureHuskySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortCombo/sort/huskySort/PureHuskySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/MyHuskySortBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/MyHuskySortBenchmark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FunctionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FunctionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SortCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SortCallable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortDir/HuskySortBenchmark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortDir/HuskySortCombo/sort/huskySort/HuskySortBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/sort/HuskySortDir/HuskySortCombo/sort/huskySort/HuskySortBenchmark.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/FunctionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FunctionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SortCallable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SortCallable.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/MingZi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="45" selection-start-line="18" selection-start-column="7" selection-end-line="20" selection-end-column="45" />
-              <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/Benchmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#251#259#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/TXT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FunctionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/OrderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1091">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SortCallable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortCombo/sort/huskySort/HuskySortBenchmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-              <folding>
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1940#1941#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/MyHuskySortBenchmark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -341,19 +218,7 @@
       <recent name="G:\git\INFO_6205_FinalProject_Maven\src\main\resources" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.OrderTest">
+  <component name="RunManager" selected="JUnit.FunctionTest.HuskySortTest (1)">
     <configuration name="FunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="INFO_6205_FinalProject_Maven" />
       <option name="PACKAGE_NAME" value="" />
@@ -363,8 +228,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionTest.HuskySortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO_6205_FinalProject_Maven" />
+    <configuration name="FunctionTest.HuskySortTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6205team" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FunctionTest" />
       <option name="METHOD_NAME" value="HuskySortTest" />
@@ -403,15 +268,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FunctionTest.HuskySortTest (1)" />
         <item itemvalue="JUnit.NumTest" />
         <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.FunctionTest" />
         <item itemvalue="JUnit.FunctionTest.MsdTest" />
-        <item itemvalue="JUnit.FunctionTest.HuskySortTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -576,14 +441,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -696,7 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.8/lib/src.zip!/java.base/java/util/concurrent/AbstractExecutorService.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-11.0.8/lib/src.zip!/java.base/java/util/concurrent/AbstractExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
@@ -729,7 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.8/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../../Program Files/Java/jdk-11.0.8/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="61" selection-start-line="61" selection-end-line="61" />

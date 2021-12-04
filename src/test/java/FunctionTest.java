@@ -1,9 +1,13 @@
 import org.junit.Assert;
 import org.junit.Test;
+import team.ChineseCharToEn;
 import team.GenerateName;
 import team.MingZi;
+import team.TXT;
 import team.sort.*;
+import team.sort.HuskySortDir.MyHuskySortBenchmark;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class FunctionTest {
@@ -68,37 +72,37 @@ public class FunctionTest {
 
     @Test
     public void HuskySortTest() {
-//        boolean flag = true;
-//        int loop = 1;
-//        while(loop>0) {
-//
-//            ArrayList<String> hz;
-//            String addr = "src/main/resources/shuffledChinese.txt";
-//            hz = TXT.read_txt(addr);
-//            String[] arr = new String[hz.size()];
-//            MingZi[] test = new MingZi[hz.size()];
-//
-//            for(int i = 0;i<hz.size();i++){
-//                arr[i] = hz.get(i);
-//                test[i] = new MingZi(arr[i],true);
-//            }
-//
-//            MyHuskySortBenchmark hs = new MyHuskySortBenchmark();
-//            hs.setData(arr);  //husky sort
-//            hs.runBenchmark();
-//
-//            Arrays.sort(test); //system sort
-//            ChineseCharToEn.CharacterPinYinConvert convert = new ChineseCharToEn.CharacterPinYinConvert();
-//
-//            for (int i = 0; i < arr.length; i++) {
-//                if (!convert.toPinYin(arr[i]).equals(test[i].getPinYin())) {
-//                    flag = false;
-//                    break;
-//                }
-//            }
-//            if(!flag) break;
-//            loop--;
-//        }
+        boolean flag = true;
+        int loop = 1;
+        while(loop>0) {
+
+            ArrayList<String> hz;
+            String addr = "src/main/resources/shuffledChinese.txt";
+            hz = TXT.read_txt(addr);
+            String[] arr = new String[hz.size()];
+            MingZi[] test = new MingZi[hz.size()];
+
+            for(int i = 0;i<hz.size();i++){
+                arr[i] = hz.get(i);
+                test[i] = new MingZi(arr[i],true);
+            }
+
+            MyHuskySortBenchmark hs = new MyHuskySortBenchmark();
+            hs.setData(arr);  //husky sort
+            hs.runBenchmark();
+
+            Arrays.sort(test); //system sort
+            ChineseCharToEn.CharacterPinYinConvert convert = new ChineseCharToEn.CharacterPinYinConvert();
+
+            for (int i = 0; i < arr.length; i++) {
+                if (!convert.toPinYin(arr[i]).equals(test[i].getPinYin())) {
+                    flag = false;
+                    break;
+                }
+            }
+            if(!flag) break;
+            loop--;
+        }
 
         Assert.assertEquals(true,true);
     }

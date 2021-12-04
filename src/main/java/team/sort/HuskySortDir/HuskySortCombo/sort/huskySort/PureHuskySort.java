@@ -7,7 +7,8 @@ import team.sort.HuskySortDir.HuskySortCombo.sort.huskySortUtils.HuskySortHelper
 import team.sort.HuskySortDir.HuskySortCombo.sort.simple.InsertionSort;
 import team.sort.HuskySortDir.HuskySortCombo.util.LazyLogger;
 
-import java.text.Collator;
+import com.ibm.icu.text.Collator;
+//import java.text.Collator;
 import java.util.Arrays;
 import java.util.Collections;
 
