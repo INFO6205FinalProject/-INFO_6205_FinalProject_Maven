@@ -110,6 +110,10 @@ public class Timsort implements Sort {
     }
 
     @Override
+    public MingZi[] getData(){
+        return this.data;
+    }
+    @Override
     public void preWork() {
         for(MingZi n:this.data){
             n.toPinYin();

@@ -1,38 +1,40 @@
 package team;
 
-import java.util.ArrayList;
+import java.text.Collator;
+import java.util.Locale;
+
 import team.sort.HuskySortCombo.sort.huskySort.*;
 import team.sort.HuskySortCombo.sort.huskySortUtils.HuskyCoderFactory;
 
 public class BenchmarkForHuskySort {
     private long time;
+    private String[] data;
+    private PureHuskySort<String> sorter;
+    public BenchmarkForHuskySort(){
+        this.sorter = new PureHuskySort<>(HuskyCoderFactory.chineseEncoder, false, false, Collator.getInstance(Locale.CHINESE));
+    }
+    public void warmup() {
+        for(int i = 0; i < 10; i++){
+            String[] warm = new String[20];
+            for(int j = 0;j < 20; j++){
+                warm[j] = GenerateName.randomName();
+            }
+            this.sorter.sort(warm);
+        }
 
-//    public void runBenchmark() {
-//        long startTime = System.currentTimeMillis();
-//        this.sortAlgorithm.preWork();
-//        this.sortAlgorithm.run();
-//        long endTime = System.currentTimeMillis();
-//        this.time = endTime - startTime;
-//    }
+    }
+    public void runBenchmark() {
+        warmup();
+        long startTime = System.currentTimeMillis();
+        this.sorter.sort(this.data);
+        long endTime = System.currentTimeMillis();
+        this.time = endTime - startTime;
+    }
 
+    public void setData(String[] data){
+        this.data = data;
+    }
     public long getTime(){
         return this.time;
     }
-
-    public static void main(String[] args) {
-        ArrayList<String> hz;
-        String addr = "D:\\Northeastern\\INFO6205\\shuffledChinese.txt";
-        hz = TXT.read_txt(addr);
-        String[] arr = new String[1000];
-        for(int i = 0; i < 1000; i++){
-            arr[i] = hz.get(i);
-        }
-
-        final PureHuskySort<String> sorter = new PureHuskySort<>(HuskyCoderFactory.asciiCoder, false, false);
-        sorter.sort(arr);
-        for(String j : arr){
-            System.out.println(j);
-        }
-    }
-
 }

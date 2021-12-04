@@ -69,6 +69,10 @@ public class DualQuicksort implements Sort {
     }
 
     @Override
+    public MingZi[] getData(){
+        return this.data;
+    }
+    @Override
     public void setData(MingZi[] data){
         this.data = data;
     }

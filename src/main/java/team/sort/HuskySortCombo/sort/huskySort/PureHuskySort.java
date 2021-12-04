@@ -7,6 +7,7 @@ import team.sort.HuskySortCombo.sort.huskySortUtils.HuskySortHelper;
 import team.sort.HuskySortCombo.sort.simple.InsertionSort;
 import team.sort.HuskySortCombo.util.LazyLogger;
 
+import java.text.Collator;
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -54,8 +55,12 @@ public class PureHuskySort<X extends Comparable<X>> {
             return;
         if (useInsertionSort)
             new InsertionSort<X>().mutatingSort(xs);
-        else
-            Arrays.sort(xs);
+        else{
+            if (this.collator != null)
+                Arrays.sort(xs, collator::compare);
+            else
+                Arrays.sort(xs);
+        }
     }
 
     /**
@@ -72,6 +77,14 @@ public class PureHuskySort<X extends Comparable<X>> {
         this.useInsertionSort = useInsertionSort;
     }
 
+    // a temporary new constructor to fix chinese sorting
+    public PureHuskySort(final HuskyCoder<X> huskyCoder, final boolean mayBeSorted, final boolean useInsertionSort, final Collator collator)
+    {
+        this.huskyCoder = huskyCoder;
+        this.mayBeSorted = mayBeSorted;
+        this.useInsertionSort = useInsertionSort;
+        this.collator = collator;
+    }
     // CONSIDER invoke method in IntroSort
     private static int floor_lg(final int a) {
         return (int) (Math.floor(Math.log(a) / Math.log(2)));
@@ -221,6 +234,6 @@ public class PureHuskySort<X extends Comparable<X>> {
     private final HuskyCoder<X> huskyCoder;
     private final boolean mayBeSorted;
     private final boolean useInsertionSort;
-
+    private Collator collator;
     private final static LazyLogger logger = new LazyLogger(PureHuskySort.class);
 }
