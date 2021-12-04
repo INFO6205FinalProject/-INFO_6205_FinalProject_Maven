@@ -65,7 +65,7 @@ public class HuskySort implements Sort{
         if (huskyCoder.perfect)
             return;
         if (useInsertionSort)
-            InsertionSortForHusky.sort(data);
+            HuskyInsertionSort.sort(data);
         else
             Arrays.sort(data);
     }

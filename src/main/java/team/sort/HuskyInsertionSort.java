@@ -2,7 +2,7 @@ package team.sort;
 
 import team.MingZi;
 
-class  InsertionSortForHusky{
+class HuskyInsertionSort {
 
     public static void sort(MingZi[] arr)
     {

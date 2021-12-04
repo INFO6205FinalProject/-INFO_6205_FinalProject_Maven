@@ -6,11 +6,11 @@ import java.util.Locale;
 import team.sort.HuskySortCombo.sort.huskySort.*;
 import team.sort.HuskySortCombo.sort.huskySortUtils.HuskyCoderFactory;
 
-public class BenchmarkForHuskySort {
+public class HuskySortBenchmark {
     private long time;
     private String[] data;
     private PureHuskySort<String> sorter;
-    public BenchmarkForHuskySort(){
+    public HuskySortBenchmark(){
         this.sorter = new PureHuskySort<>(HuskyCoderFactory.chineseEncoder, false, false, Collator.getInstance(Locale.CHINESE));
     }
     public void warmup() {
