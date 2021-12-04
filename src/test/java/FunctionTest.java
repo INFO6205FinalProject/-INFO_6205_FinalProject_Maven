@@ -2,9 +2,11 @@ import org.junit.Assert;
 import org.junit.Test;
 import team.GenerateName;
 import team.MingZi;
+import team.TXT;
 import team.sort.*;
 import team.sort.HuskySortDir.HuskySortBenchmark;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class FunctionTest {
@@ -68,21 +70,31 @@ public class FunctionTest {
     }
     @Test
     public void HuskySortTest() {
-        String[] arr = new String[arrSize];
-        MingZi[] test = new MingZi[arrSize];
+
+
         boolean flag = true;
         int loop = 1;
         while(loop>0) {
-            for (int i = 0; i < arr.length; i++) {
-                arr[i] = GenerateName.randomName();
+//            for (int i = 0; i < arr.length; i++) {
+//                arr[i] = GenerateName.randomName();
+//                test[i] = new MingZi(arr[i],true);
+//
+            ArrayList<String> hz;
+            String addr = "src/main/resources/shuffledChinese.txt";
+            hz = TXT.read_txt(addr);
+            String[] arr = new String[hz.size()];
+            MingZi[] test = new MingZi[hz.size()];
+
+            for(int i = 0;i<hz.size();i++){
+                arr[i] = hz.get(i);
                 test[i] = new MingZi(arr[i],true);
             }
 
             HuskySortBenchmark hs = new HuskySortBenchmark();
-            hs.setData(arr);
+            hs.setData(arr);  //husky sort
             hs.runBenchmark();
 
-            Arrays.sort(test);
+            Arrays.sort(test); //system sort
 
             for (int i = 0; i < arr.length; i++) {
                 if (!arr[i].equals(test[i].getHanZi())) {

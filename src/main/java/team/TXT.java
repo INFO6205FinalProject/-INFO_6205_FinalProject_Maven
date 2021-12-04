@@ -50,7 +50,7 @@ public class TXT {
     }
 
     public static void main(String[] args) {
-        String addr = "/Users/qinhaoyuan/Desktop/INFO 6205/shuffledChinese.txt";
+        String addr = "src/main/resources//shuffledChinese.txt";
         ArrayList<String> s = read_txt(addr);
         for(String i : s){
             System.out.println(i);
