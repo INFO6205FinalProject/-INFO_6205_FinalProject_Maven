@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
+      <change afterPath="$PROJECT_DIR$/src/main/java/team/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/MyHuskySortBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/MyHuskySortBenchmark.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,22 +213,25 @@
       <recent name="G:\git\INFO_6205_FinalProject_Maven\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="team.Main" />
+      <module name="6205team" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="team.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="INFO_6205_FinalProject_Maven" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NumTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumTest.fourM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO_6205_FinalProject_Maven" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NumTest" />
-      <option name="METHOD_NAME" value="fourM" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -262,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.NumTest" />
         <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.NumTest.oneM" />
         <item itemvalue="JUnit.NumTest.twoM" />
-        <item itemvalue="JUnit.NumTest.fourM" />
       </list>
     </recent_temporary>
   </component>
@@ -455,7 +460,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="read txt" />
