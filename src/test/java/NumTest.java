@@ -86,11 +86,11 @@ public class NumTest {
 
         try {
             System.out.println();
-            System.out.println("TimSort in 5k random  milliseconds:" + timResult.get());
-            System.out.println("QuickSort in 5k random  milliseconds:" + quickResult.get());
-            System.out.println("LsdSort in 5k random  milliseconds:" + lsdResult.get());
-            System.out.println("MsdSort in 5k random  milliseconds:" + msdResult.get());
-            System.out.println("HuskySort in 5k random  milliseconds:" + HuskyResult.get());
+            System.out.println("TimSort in 500k random  milliseconds:" + timResult.get());
+            System.out.println("QuickSort in 500k random  milliseconds:" + quickResult.get());
+            System.out.println("LsdSort in 500k random  milliseconds:" + lsdResult.get());
+            System.out.println("MsdSort in 500k random  milliseconds:" + msdResult.get());
+            System.out.println("HuskySort in 500k random  milliseconds:" + HuskyResult.get());
 
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
