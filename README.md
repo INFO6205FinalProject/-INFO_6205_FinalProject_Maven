@@ -6,11 +6,11 @@ All test(we use test as our main run method).
 
 TXT read model to read txt file on disk.
 
-MingZI model to storage and use for sort.
+MingZi model to storage and use for sort.
 
 GenerateName model to generate Chinese name randomly, use to test sort result.
 
-ChineseCharToEn model base on PinYin4j, transform Chinese character to English according to pinyin.
+ChineseCharToEn model base on PinYin4j, transform Chinese character to English character according to pinyin.
 
 Benchmark model to test time duration of sort. MyHuskySortBenchmark Special customized benchmark for husky sort.
 
