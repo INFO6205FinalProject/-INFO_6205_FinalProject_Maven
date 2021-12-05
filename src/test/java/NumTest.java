@@ -61,7 +61,7 @@ public class NumTest {
     }
 
     @Test
-    public void FiveK() {
+    public void FiveHundredK() {
         int arrSize = 500000;
         String sortType = "random";
         threadPool = new ThreadPoolExecutor(5, 6, 60, TimeUnit.SECONDS, new LinkedBlockingQueue<Runnable>());
