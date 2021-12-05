@@ -1,6 +1,8 @@
 # INFO_6205_FinalProject_Maven
 maven struct
 
+Sort result is under /src/main/resources
+
 ## New Model
 All tests in thread pool(we use test as our main run method).
 
@@ -22,4 +24,4 @@ Replace default Collator for Huskysort with IBM Collator, make it suitable for m
 ## Attention！
 The main method(Main class) is only used to generate sort result under /src/main/resources
 
-If you want to run it, please make sure you deleted all the file named like "***result.txt"under this folder.
+If you want to run it, please make sure you deleted all the file named like "***Result.txt"under this folder.
