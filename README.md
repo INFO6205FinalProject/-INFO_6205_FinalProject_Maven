@@ -18,3 +18,8 @@ Benchmark model to test time duration of sort. MyHuskySortBenchmark Special cust
 Modify TImsort, LSDSort, MSDSort, QuickSort and Huskysort to our structure.
 
 Replace default Collator for Huskysort with IBM Collator, make it suitable for more Chinese characters.
+
+## Attention！
+The main method(Main class) is only used to generate sort result under /src/main/resources
+
+If you want to run it, please make sure you deleted all the file named like "***result.txt"under this folder.
