@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/TXT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/TXT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/Benchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskyEncode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskyInsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortCoder/Coder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortCoder/EnglishCoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortCoder/UTF8Coder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/HuskySortCoder/UnicodeCoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Benchmark$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/Benchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/Benchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/TXT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/team/TXT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortDir/HuskyEncode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortDir/HuskyInsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortDir/HuskySort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortDir/HuskySortCoder/Coder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortDir/HuskySortCoder/EnglishCoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortDir/HuskySortCoder/UTF8Coder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/team/sort/HuskySortDir/HuskySortCoder/UnicodeCoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NumTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,9 +232,28 @@
       <recent name="G:\git\INFO_6205_FinalProject_Maven\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NumTest">
-    <configuration name="NumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO_6205_FinalProject_Maven" />
+  <component name="RunManager" selected="JUnit.NumTest.twoFiveK">
+    <configuration name="FunctionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6205team" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionTest.HuskySortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6205team" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FunctionTest" />
+      <option name="METHOD_NAME" value="HuskySortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6205team" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NumTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -221,38 +261,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumTest.fourM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO_6205_FinalProject_Maven" />
+    <configuration name="NumTest.twoFiveK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6205team" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NumTest" />
-      <option name="METHOD_NAME" value="fourM" />
+      <option name="METHOD_NAME" value="twoFiveK" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumTest.oneM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO_6205_FinalProject_Maven" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NumTest" />
-      <option name="METHOD_NAME" value="oneM" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumTest.twoM" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO_6205_FinalProject_Maven" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NumTest" />
-      <option name="METHOD_NAME" value="twoM" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="INFO_6205_FinalProject_Maven" />
+    <configuration name="OrderTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6205team" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="OrderTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -262,15 +282,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NumTest" />
-        <item itemvalue="JUnit.OrderTest" />
-        <item itemvalue="JUnit.NumTest.oneM" />
-        <item itemvalue="JUnit.NumTest.twoM" />
-        <item itemvalue="JUnit.NumTest.fourM" />
+        <item itemvalue="JUnit.NumTest.twoFiveK" />
+        <item itemvalue="JUnit.OrderTest (1)" />
+        <item itemvalue="JUnit.FunctionTest" />
+        <item itemvalue="JUnit.NumTest (1)" />
+        <item itemvalue="JUnit.FunctionTest.HuskySortTest" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -288,6 +308,7 @@
       <workItem from="1638587330416" duration="631000" />
       <workItem from="1638588020021" duration="598000" />
       <workItem from="1638588757062" duration="4184000" />
+      <workItem from="1638671077606" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="read txt">
       <created>1638116823014</created>
@@ -455,7 +476,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="read txt" />
