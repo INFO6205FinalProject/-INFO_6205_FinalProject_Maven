@@ -2,7 +2,7 @@
 maven struct
 
 ## New Model
-All test(we use test as our main run method).
+All tests in thread pool(we use test as our main run method).
 
 TXT read model to read txt file on disk.
 
