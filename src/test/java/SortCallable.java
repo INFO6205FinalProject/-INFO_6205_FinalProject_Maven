@@ -1,10 +1,8 @@
-import team.Benchmark;
-import team.GenerateName;
-import team.MingZi;
-import team.SortMethod;
+import team.*;
 import team.sort.HuskySortDir.HuskySortCombo.sort.huskySort.HuskySortBenchmark;
 import team.sort.HuskySortDir.MyHuskySortBenchmark;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.concurrent.Callable;
 
@@ -25,11 +23,30 @@ public class SortCallable implements Callable<Long> {
     public Long call() throws Exception {
 
         System.out.println(name+ " thread start");
-        String[] arr = new String[arrSize];
 
-        for(int i = 0;i<arr.length;i++){
+        int loop = arrSize/1000000;
 
-            arr[i] = GenerateName.randomName();
+        arrSize = arrSize % 1000000;
+        if(arrSize == 0){
+            arrSize = 1000000;
+        }
+
+        String addr = "src/main/resources/shuffledChinese.txt";
+        ArrayList<String> list = TXT.read_txt(addr,arrSize);
+
+        if(loop>1){
+            while(loop>1){
+                for(int i = 0;i<1000000;i++) {
+                    list.add(list.get(i));
+                }
+                loop--;
+            }
+        }
+
+        String[] arr = new String[list.size()];
+
+        for(int i = 0;i<list.size();i++) {
+            arr[i] = list.get(i);
         }
 
         if(this.sortType.equals("random")){

@@ -14,18 +14,21 @@ import java.util.List;
 
 public class TXT {
 
-    public static ArrayList<String> read_txt(String addr){
+    public static ArrayList<String> read_txt(String addr,int size){
         ArrayList<String> s = new ArrayList<String>();
         try { // 防止文件建立或读取失败，用catch捕捉错误并打印，也可以throw
             /* 读入TXT文件 */
             String filePath = addr;
+            int num = 0;
             FileInputStream fin = new FileInputStream(filePath);
             InputStreamReader reader = new InputStreamReader(fin);
             BufferedReader buffReader = new BufferedReader(reader);
             String strTmp = "";
-            while((strTmp = buffReader.readLine())!=null){
+            while((strTmp = buffReader.readLine())!=null && num<=size){
                 s.add(strTmp);
+                num++;
             }
+
             buffReader.close();
 
         } catch (Exception e) {
@@ -51,7 +54,7 @@ public class TXT {
 
     public static void main(String[] args) {
         String addr = "src/main/resources//shuffledChinese.txt";
-        ArrayList<String> s = read_txt(addr);
+        ArrayList<String> s = read_txt(addr,1000000);
         for(String i : s){
             System.out.println(i);
         }

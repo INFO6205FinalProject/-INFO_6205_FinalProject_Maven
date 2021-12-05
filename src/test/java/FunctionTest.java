@@ -76,14 +76,14 @@ public class FunctionTest {
         int loop = 1;
         while(loop>0) {
 
-            ArrayList<String> hz;
             String addr = "src/main/resources/shuffledChinese.txt";
-            hz = TXT.read_txt(addr);
-            String[] arr = new String[hz.size()];
-            MingZi[] test = new MingZi[hz.size()];
+            ArrayList<String> list = TXT.read_txt(addr,1000000);
 
-            for(int i = 0;i<hz.size();i++){
-                arr[i] = hz.get(i);
+            String[] arr = new String[list.size()];
+            MingZi[] test = new MingZi[list.size()];
+
+            for(int i = 0;i<list.size();i++){
+                arr[i] = list.get(i);
                 test[i] = new MingZi(arr[i],true);
             }
 
