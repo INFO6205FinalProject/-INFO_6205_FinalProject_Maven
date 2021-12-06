@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="Add Main &amp; arranged MingZi">
-      <change afterPath="$PROJECT_DIR$/src/main/java/team/Main.java" afterDir="false" />
+    <list default="true" id="15ec19c4-9313-4ac7-ae0f-9abdb913d578" name="Default Changelist" comment="remove">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/MyHuskySortBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/team/sort/HuskySortDir/MyHuskySortBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Report --Sorting algorithm---Haoyuan Qin, Xingyu Huang, Zhen Luo.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638139777771</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="remove">
+      <created>1638676708408</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638676708410</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -460,6 +466,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="read txt" />
@@ -468,7 +475,8 @@
     <MESSAGE value="add add_zero" />
     <MESSAGE value="add compareTo" />
     <MESSAGE value="add Annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Annotation" />
+    <MESSAGE value="remove" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/team/kkk.java" />
